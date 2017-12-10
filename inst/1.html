@@ -1,0 +1,6529 @@
+<!DOCTYPE html><html lang="en"><head>
+	
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>The Rap Board - Signature catchphrases from your favorite rappers</title>
+  <meta name="description" content="Signature catchphrases from your favorite rappers">
+  <meta name="author" content="LP Riel">
+  <meta name="image" content="http://www.therapboard.com/images/apple-touch-icon-iphone.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  
+  <link rel="shortcut icon" href="http://www.therapboard.com/images/favicon.ico">
+
+  <script type="text/javascript" async="" src="https://platform.stumbleupon.com/1/widgets.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="javascripts/jquery-1.7.min.js"></script>
+  <script src="javascripts/underscore-min.js"></script>
+  <script src="javascripts/backbone-min.js"></script>
+  <script src="javascripts/app.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet" type="text/css">
+  
+  <!-- FACEBOOK TAGS -->
+  
+  <meta property="og:url" content="http://www.therapboard.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Rap Board">
+  <meta property="og:description" content="Signature catchphrases from your favorite rappers">
+  <meta property="og:image" content="http://www.therapboard.com/images/therapboard.jpg">
+
+<!-- GOOGLE ANALYTICS -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26595734-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- STUMBLE UPON -->
+
+<script type="text/javascript">
+  (function() {
+    var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true;
+    li.src = 'https://platform.stumbleupon.com/1/widgets.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s);
+  })();
+</script>
+
+<!-- RAPPERS, NEW, TOOLTIP & AUDIO -->
+
+<script type="text/template" id="soundBoardItemView">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/<%= className %>.png);"></li>
+        
+	<div id="newTag" class="<%= isNew %>">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content"><%= displayName %></span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="<%= displayName %>" class="<%= className %>">
+      <% _.each(audioFiles, function(audioFile, i) { %>
+      <source src="audio/<%= audioFile %>" type="audio/<%= audioType[i] %>">
+      <% }); %>
+    </audio>
+	
+</script>
+
+
+<script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.1facadb23fe60c14e77032ea1234ff46.js"></script></head>
+<body>
+
+<!-- HEADER -->
+
+<section id="header">
+	<div id="container">
+		<header>
+			
+			<!-- RAP BOARD LOGO -->
+			<div class="clear" id="branding">
+			
+				<div id="social-container">
+				
+					<!-- FACEBOOK -->
+					<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.therapboard.com&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=254251877946092" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowtransparency="true"></iframe> &nbsp;
+				
+					<!-- TWITTER -->
+					<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.6b8337773e8a8ecc4f0b054fec8f1482.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Ftherapboard.com%2F&amp;size=m&amp;text=The%20Rap%20Board%20-%20Signature%20catchphrases%20from%20your%20favorite%20rappers&amp;time=1512938470902&amp;type=share&amp;url=http%3A%2F%2Ftherapboard.com%2F&amp;via=therapboard" style="position: static; visibility: visible; width: 62px; height: 20px;"></iframe><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script> &nbsp;
+				
+					<!-- STUMBLE UPON -->
+					<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://badge.stumbleupon.com/badge/embed/1/?url=http%3A%2F%2Ftherapboard.com%2F" width="74" height="18" id="iframe-stmblpn-widget-1" style="overflow: hidden; margin: 0px; padding: 0px; border: 0px;"></iframe>
+				</div>
+
+				<!-- FACEBOOK -->
+	        	<div id="cta-container2">
+		        	<a href="http://www.twitter.com/therapboard" target="_blank"></a>
+		        </div>
+	        
+		        <!-- TWITTER -->
+			    <div id="cta-container4">
+				    <a href="http://www.facebook.com/therapboard" target="_blank"></a>
+				</div>
+			
+			</div>
+			
+			
+			
+			
+			
+		</header>
+  </div>
+</section>
+
+<div id="container">
+  <div id="content"><ul id="rap-board-list"><li id="c1" class="artists-2chainz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2chainz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2 Chainz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2 Chainz" class="2chainz">
+      
+      <source src="audio/2chainz_4.ogg" type="audio/ogg">
+      
+      <source src="audio/2chainz_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c2" class="artists-2chainz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2chainz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2 Chainz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2 Chainz" class="2chainz">
+      
+      <source src="audio/2chainz_yeah2.ogg" type="audio/ogg">
+      
+      <source src="audio/2chainz_yeah2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c3" class="artists-2chainz new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2chainz.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2 Chainz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2 Chainz" class="2chainz">
+      
+      <source src="audio/2chainz_tellem.ogg" type="audio/ogg">
+      
+      <source src="audio/2chainz_tellem.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c4" class="artists-2chainz new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2chainz.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2 Chainz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2 Chainz" class="2chainz">
+      
+      <source src="audio/2chainz_tru.ogg" type="audio/ogg">
+      
+      <source src="audio/2chainz_tru.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c5" class="artists-2chainz new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2chainz.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2 Chainz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2 Chainz" class="2chainz">
+      
+      <source src="audio/2chainz_unh3.ogg" type="audio/ogg">
+      
+      <source src="audio/2chainz_unh3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c6" class="artists-2chainz new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2chainz.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2 Chainz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2 Chainz" class="2chainz">
+      
+      <source src="audio/2chainz_watchout.ogg" type="audio/ogg">
+      
+      <source src="audio/2chainz_watchout.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c7" class="artists-2chainz new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2chainz.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2 Chainz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2 Chainz" class="2chainz">
+      
+      <source src="audio/2chainz_whistle.ogg" type="audio/ogg">
+      
+      <source src="audio/2chainz_whistle.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c8" class="artists-2pac">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2pac.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2pac</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2pac" class="2pac">
+      
+      <source src="audio/2pac_4.ogg" type="audio/ogg">
+      
+      <source src="audio/2pac_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c9" class="artists-2pac">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2pac.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2pac</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2pac" class="2pac">
+      
+      <source src="audio/2pac_5.ogg" type="audio/ogg">
+      
+      <source src="audio/2pac_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c10" class="artists-2pac">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/2pac.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">2pac</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="2pac" class="2pac">
+      
+      <source src="audio/2pac_6.ogg" type="audio/ogg">
+      
+      <source src="audio/2pac_6.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c11" class="artists-21savage new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/21savage.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">21 Savage</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="21 Savage" class="21savage">
+      
+      <source src="audio/21savage_21.ogg" type="audio/ogg">
+      
+      <source src="audio/21savage_21.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c12" class="artists-fiftycent">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fiftycent.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">50 Cent</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="50 Cent" class="fiftycent">
+      
+      <source src="audio/50_5.ogg" type="audio/ogg">
+      
+      <source src="audio/50_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c13" class="artists-fiftycent">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fiftycent.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">50 Cent</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="50 Cent" class="fiftycent">
+      
+      <source src="audio/50_8.ogg" type="audio/ogg">
+      
+      <source src="audio/50_8.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c14" class="artists-fiftycent">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fiftycent.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">50 Cent</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="50 Cent" class="fiftycent">
+      
+      <source src="audio/50_11.ogg" type="audio/ogg">
+      
+      <source src="audio/50_11.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c15" class="artists-fiftycent">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fiftycent.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">50 Cent</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="50 Cent" class="fiftycent">
+      
+      <source src="audio/50cent_2.ogg" type="audio/ogg">
+      
+      <source src="audio/50cent_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c16" class="artists-actionbronson">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/actionbronson.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Action Bronson</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Action Bronson" class="actionbronson">
+      
+      <source src="audio/action_bronsolino.ogg" type="audio/ogg">
+      
+      <source src="audio/action_bronsolino.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c17" class="artists-actionbronson">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/actionbronson.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Action Bronson</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Action Bronson" class="actionbronson">
+      
+      <source src="audio/action_yeah.ogg" type="audio/ogg">
+      
+      <source src="audio/action_yeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c18" class="artists-actionbronson">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/actionbronson.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Action Bronson</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Action Bronson" class="actionbronson">
+      
+      <source src="audio/action_yo.ogg" type="audio/ogg">
+      
+      <source src="audio/action_yo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c19" class="artists-actionbronson new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/actionbronson.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Action Bronson</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Action Bronson" class="actionbronson">
+      
+      <source src="audio/actionbronson_itsme.ogg" type="audio/ogg">
+      
+      <source src="audio/actionbronson_istme.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c20" class="artists-actionbronson new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/actionbronson.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Action Bronson</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Action Bronson" class="actionbronson">
+      
+      <source src="audio/actionbronson_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/actionbronson_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c21" class="artists-akon">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/akon.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Akon</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Akon" class="akon">
+      
+      <source src="audio/akon_1.ogg" type="audio/ogg">
+      
+      <source src="audio/akon_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c22" class="artists-beaniesigel">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/beaniesigel.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Beanie Sigel</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Beanie Sigel" class="beaniesigel">
+      
+      <source src="audio/beanie_mac.ogg" type="audio/ogg">
+      
+      <source src="audio/beanie_mac.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c23" class="artists-bigboi">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigboi.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Boi</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Boi" class="bigboi">
+      
+      <source src="audio/bigboi_1.ogg" type="audio/ogg">
+      
+      <source src="audio/bigboi_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c24" class="artists-bigl">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigl.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big L</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big L" class="bigl">
+      
+      <source src="audio/bigl_3.ogg" type="audio/ogg">
+      
+      <source src="audio/bigl_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c25" class="artists-bigl">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigl.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big L</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big L" class="bigl">
+      
+      <source src="audio/bigl_4.ogg" type="audio/ogg">
+      
+      <source src="audio/bigl_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c26" class="artists-bigl">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigl.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big L</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big L" class="bigl">
+      
+      <source src="audio/bigl_5.ogg" type="audio/ogg">
+      
+      <source src="audio/bigl_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c27" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_boi2.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_boi2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c28" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_doit.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_doit.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c29" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_holdup2.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_holdup2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c30" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_ohgod.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_ohgod.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c31" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_okay.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_okay.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c32" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_stop.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_stop.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c33" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_whoa.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_whoa.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c34" class="artists-bigsean">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_whoathere.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_whoathere.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c35" class="artists-bigsean new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bigsean.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Big Sean</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Big Sean" class="bigsean">
+      
+      <source src="audio/bigsean_unhunh.ogg" type="audio/ogg">
+      
+      <source src="audio/bigsean_unhunh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c36" class="artists-birdman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_4.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c37" class="artists-birdman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_10.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_10.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c38" class="artists-birdman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_16.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_16.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c39" class="artists-birdman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_1.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c40" class="artists-birdman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_6.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_6.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c41" class="artists-birdman new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_birdman.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_birdman.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c42" class="artists-birdman new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_nonsense.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_nonsense.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c43" class="artists-birdman new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/birdman.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Birdman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Birdman" class="birdman">
+      
+      <source src="audio/birdman_respeck.ogg" type="audio/ogg">
+      
+      <source src="audio/birdman_respeck.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c44" class="artists-bobby new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bobby.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Bobby Shmurda</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Bobby Shmurda" class="bobby">
+      
+      <source src="audio/bobby_hahaha.ogg" type="audio/ogg">
+      
+      <source src="audio/bobby_hahaha.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c45" class="artists-bowwow">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bowwow.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Bow Wow</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Bow Wow" class="bowwow">
+      
+      <source src="audio/bowwow_yeah.ogg" type="audio/ogg">
+      
+      <source src="audio/bowwow_yeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c46" class="artists-bunb">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/bunb.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Bun B</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Bun B" class="bunb">
+      
+      <source src="audio/bunb_ugk4life.ogg" type="audio/ogg">
+      
+      <source src="audio/bunb_ugk4life.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c47" class="artists-busta">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/busta.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Busta Rhymes</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Busta Rhymes" class="busta">
+      
+      <source src="audio/busta_6.ogg" type="audio/ogg">
+      
+      <source src="audio/busta_6.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c48" class="artists-busta">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/busta.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Busta Rhymes</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Busta Rhymes" class="busta">
+      
+      <source src="audio/busta_1.ogg" type="audio/ogg">
+      
+      <source src="audio/busta_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c49" class="artists-busta">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/busta.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Busta Rhymes</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Busta Rhymes" class="busta">
+      
+      <source src="audio/busta_2.ogg" type="audio/ogg">
+      
+      <source src="audio/busta_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c50" class="artists-busta">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/busta.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Busta Rhymes</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Busta Rhymes" class="busta">
+      
+      <source src="audio/busta_5.ogg" type="audio/ogg">
+      
+      <source src="audio/busta_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c51" class="artists-camron">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/camron.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Cam'Ron</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Cam'Ron" class="camron">
+      
+      <source src="audio/camron_1.ogg" type="audio/ogg">
+      
+      <source src="audio/camron_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c52" class="artists-camron">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/camron.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Cam'Ron</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Cam'Ron" class="camron">
+      
+      <source src="audio/camron_2.ogg" type="audio/ogg">
+      
+      <source src="audio/camron_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c53" class="artists-chance new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/chance.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Chance The Rapper</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Chance The Rapper" class="chance">
+      
+      <source src="audio/chance_aghh2.ogg" type="audio/ogg">
+      
+      <source src="audio/chance_aghh2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c54" class="artists-chedda new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/chedda.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Chedda Da Connect</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Chedda Da Connect" class="chedda">
+      
+      <source src="audio/chedda_car4.ogg" type="audio/ogg">
+      
+      <source src="audio/chedda_car4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c55" class="artists-chedda new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/chedda.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Chedda Da Connect</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Chedda Da Connect" class="chedda">
+      
+      <source src="audio/chedda_ugh.ogg" type="audio/ogg">
+      
+      <source src="audio/chedda_ugh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c56" class="artists-chiefkeef">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/chiefkeef.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Chief Keef</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Chief Keef" class="chiefkeef">
+      
+      <source src="audio/keef_bang.ogg" type="audio/ogg">
+      
+      <source src="audio/keef_bang.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c57" class="artists-chiefkeef">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/chiefkeef.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Chief Keef</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Chief Keef" class="chiefkeef">
+      
+      <source src="audio/keef_catchup.ogg" type="audio/ogg">
+      
+      <source src="audio/keef_catchup.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c58" class="artists-chingy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/chingy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Chingy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Chingy" class="chingy">
+      
+      <source src="audio/chingy_1.ogg" type="audio/ogg">
+      
+      <source src="audio/chingy_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c59" class="artists-currensy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/currensy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Curren$y</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Curren$y" class="currensy">
+      
+      <source src="audio/currensy_1.ogg" type="audio/ogg">
+      
+      <source src="audio/currensy_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c60" class="artists-dabrat">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dabrat.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Da Brat</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Da Brat" class="dabrat">
+      
+      <source src="audio/dabrat_comeon.ogg" type="audio/ogg">
+      
+      <source src="audio/dabrat_comeon.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c61" class="artists-dabrat">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dabrat.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Da Brat</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Da Brat" class="dabrat">
+      
+      <source src="audio/dabrat_lookout.ogg" type="audio/ogg">
+      
+      <source src="audio/dabrat_lookout.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c62" class="artists-dabrat">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dabrat.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Da Brat</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Da Brat" class="dabrat">
+      
+      <source src="audio/dabrat_oh.ogg" type="audio/ogg">
+      
+      <source src="audio/dabrat_oh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c63" class="artists-dannybrown">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dannybrown.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Danny Brown</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Danny Brown" class="dannybrown">
+      
+      <source src="audio/danny_stop.ogg" type="audio/ogg">
+      
+      <source src="audio/danny_stop.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c64" class="artists-dannybrown">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dannybrown.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Danny Brown</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Danny Brown" class="dannybrown">
+      
+      <source src="audio/danny_yeah.ogg" type="audio/ogg">
+      
+      <source src="audio/danny_yeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c65" class="artists-dannybrown">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dannybrown.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Danny Brown</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Danny Brown" class="dannybrown">
+      
+      <source src="audio/dannybrown_laugh2.ogg" type="audio/ogg">
+      
+      <source src="audio/dannybrown_laugh2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c66" class="artists-dannybrown new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dannybrown.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Danny Brown</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Danny Brown" class="dannybrown">
+      
+      <source src="audio/danny_check.ogg" type="audio/ogg">
+      
+      <source src="audio/danny_check.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c67" class="artists-davidbanner">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/davidbanner.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">David Banner</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="David Banner" class="davidbanner">
+      
+      <source src="audio/davidbanner_5.ogg" type="audio/ogg">
+      
+      <source src="audio/davidbanner_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c68" class="artists-desiigner new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/desiigner.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Desiigner</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Desiigner" class="desiigner">
+      
+      <source src="audio/desiigner_pandapanda.ogg" type="audio/ogg">
+      
+      <source src="audio/desiigner_pandapanda.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c69" class="artists-desiigner new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/desiigner.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Desiigner</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Desiigner" class="desiigner">
+      
+      <source src="audio/desiigner_rahhh.ogg" type="audio/ogg">
+      
+      <source src="audio/desiigner_rahhh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c70" class="artists-desiigner new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/desiigner.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Desiigner</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Desiigner" class="desiigner">
+      
+      <source src="audio/desiigner_yeha.ogg" type="audio/ogg">
+      
+      <source src="audio/desiigner_yeha.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c71" class="artists-diddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/diddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Diddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Diddy" class="diddy">
+      
+      <source src="audio/diddy_1.ogg" type="audio/ogg">
+      
+      <source src="audio/diddy_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c72" class="artists-diddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/diddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Diddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Diddy" class="diddy">
+      
+      <source src="audio/diddy_3.ogg" type="audio/ogg">
+      
+      <source src="audio/diddy_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c73" class="artists-diddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/diddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Diddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Diddy" class="diddy">
+      
+      <source src="audio/diddy_4.ogg" type="audio/ogg">
+      
+      <source src="audio/diddy_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c74" class="artists-diddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/diddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Diddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Diddy" class="diddy">
+      
+      <source src="audio/diddy_5.ogg" type="audio/ogg">
+      
+      <source src="audio/diddy_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c75" class="artists-diddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/diddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Diddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Diddy" class="diddy">
+      
+      <source src="audio/diddy_6.ogg" type="audio/ogg">
+      
+      <source src="audio/diddy_6.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c76" class="artists-diddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/diddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Diddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Diddy" class="diddy">
+      
+      <source src="audio/diddy_7.ogg" type="audio/ogg">
+      
+      <source src="audio/diddy_7.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c77" class="artists-dizzee">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dizzee.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Dizzee Rascal</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Dizzee Rascal" class="dizzee">
+      
+      <source src="audio/dizzee_1.ogg" type="audio/ogg">
+      
+      <source src="audio/dizzee_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c78" class="artists-djdrama new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/djdrama.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Drama</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Drama" class="djdrama">
+      
+      <source src="audio/djdrama_dramatic.ogg" type="audio/ogg">
+      
+      <source src="audio/djdrama_dramatic.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c79" class="artists-khaled">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/djkhaled_2.ogg" type="audio/ogg">
+      
+      <source src="audio/djkhaled_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c80" class="artists-khaled">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/djkhaled_3.ogg" type="audio/ogg">
+      
+      <source src="audio/djkhaled_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c81" class="artists-khaled new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/khaled_blessup2.ogg" type="audio/ogg">
+      
+      <source src="audio/khaled_blessup2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c82" class="artists-khaled new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/khaled_majorkey3.ogg" type="audio/ogg">
+      
+      <source src="audio/khaled_majorkey3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c83" class="artists-khaled new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/khaled_Riel_Life.ogg" type="audio/ogg">
+      
+      <source src="audio/khaled_Riel_Life.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c84" class="artists-khaled new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/khaled_theydontwant.ogg" type="audio/ogg">
+      
+      <source src="audio/khaled_theydontwant.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c85" class="artists-khaled new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/khaled_wethebest.ogg" type="audio/ogg">
+      
+      <source src="audio/khaled_wethebest.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c86" class="artists-khaled new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/khaled_youdontlovemenomo.ogg" type="audio/ogg">
+      
+      <source src="audio/khaled_youdontlovemenomo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c87" class="artists-khaled new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/khaled.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Khaled</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Khaled" class="khaled">
+      
+      <source src="audio/khaled_anotherone.ogg" type="audio/ogg">
+      
+      <source src="audio/khaled_anotherone.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c88" class="artists-djmustard new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/djmustard.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Mustard</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Mustard" class="djmustard">
+      
+      <source src="audio/djmustard_onthebeat.ogg" type="audio/ogg">
+      
+      <source src="audio/djmustard_onthebeat.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c89" class="artists-djpaul">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/djpaul.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Paul</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Paul" class="djpaul">
+      
+      <source src="audio/djpaul_2.ogg" type="audio/ogg">
+      
+      <source src="audio/djpaul_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c90" class="artists-djpaul">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/djpaul.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Paul</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Paul" class="djpaul">
+      
+      <source src="audio/djpaul_3.ogg" type="audio/ogg">
+      
+      <source src="audio/djpaul_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c91" class="artists-djpaul">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/djpaul.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DJ Paul</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DJ Paul" class="djpaul">
+      
+      <source src="audio/djpaul_9.ogg" type="audio/ogg">
+      
+      <source src="audio/djpaul_9.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c92" class="artists-dmx">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dmx.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DMX</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DMX" class="dmx">
+      
+      <source src="audio/dmx_1.ogg" type="audio/ogg">
+      
+      <source src="audio/dmx_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c93" class="artists-dmx">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dmx.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DMX</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DMX" class="dmx">
+      
+      <source src="audio/dmx_3.ogg" type="audio/ogg">
+      
+      <source src="audio/dmx_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c94" class="artists-dmx">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dmx.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DMX</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DMX" class="dmx">
+      
+      <source src="audio/dmx_6.ogg" type="audio/ogg">
+      
+      <source src="audio/dmx_6.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c95" class="artists-dmx">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/dmx.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">DMX</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="DMX" class="dmx">
+      
+      <source src="audio/dmx_7.ogg" type="audio/ogg">
+      
+      <source src="audio/dmx_7.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c96" class="artists-drake">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drake.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drake</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drake" class="drake">
+      
+      <source src="audio/drake_2.ogg" type="audio/ogg">
+      
+      <source src="audio/drake_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c97" class="artists-drake">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drake.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drake</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drake" class="drake">
+      
+      <source src="audio/drake_3.ogg" type="audio/ogg">
+      
+      <source src="audio/drake_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c98" class="artists-drake">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drake.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drake</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drake" class="drake">
+      
+      <source src="audio/drake_4.ogg" type="audio/ogg">
+      
+      <source src="audio/drake_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c99" class="artists-drake">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drake.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drake</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drake" class="drake">
+      
+      <source src="audio/drake_5.ogg" type="audio/ogg">
+      
+      <source src="audio/drake_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c100" class="artists-drake new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drake.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drake</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drake" class="drake">
+      
+      <source src="audio/drake_goddamngoddamn.ogg" type="audio/ogg">
+      
+      <source src="audio/drake_goddamngoddamn.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c101" class="artists-drake new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drake.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drake</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drake" class="drake">
+      
+      <source src="audio/drake_worst.ogg" type="audio/ogg">
+      
+      <source src="audio/drake_worst.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c102" class="artists-drake new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drake.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drake</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drake" class="drake">
+      
+      <source src="audio/drake_yeahyuh3.ogg" type="audio/ogg">
+      
+      <source src="audio/drake_yeahyuh3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c103" class="artists-drummaboy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/drummaboy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Drumma Boy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Drumma Boy" class="drummaboy">
+      
+      <source src="audio/drummaboy_1.ogg" type="audio/ogg">
+      
+      <source src="audio/drummaboy_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c104" class="artists-e40">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/e40.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">E-40</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="E-40" class="e40">
+      
+      <source src="audio/e40_1.ogg" type="audio/ogg">
+      
+      <source src="audio/e40_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c105" class="artists-e40">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/e40.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">E-40</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="E-40" class="e40">
+      
+      <source src="audio/e40_2.ogg" type="audio/ogg">
+      
+      <source src="audio/e40_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c106" class="artists-eazye">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/eazye.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Eazy-E</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Eazy-E" class="eazye">
+      
+      <source src="audio/eazye_1.ogg" type="audio/ogg">
+      
+      <source src="audio/eazye_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c107" class="artists-eminem">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/eminem.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Eminem</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Eminem" class="eminem">
+      
+      <source src="audio/eminem_3.ogg" type="audio/ogg">
+      
+      <source src="audio/eminem_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c108" class="artists-eminem">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/eminem.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Eminem</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Eminem" class="eminem">
+      
+      <source src="audio/eminem_4.ogg" type="audio/ogg">
+      
+      <source src="audio/eminem_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c109" class="artists-fatjoe">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fatjoe.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Fat Joe</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Fat Joe" class="fatjoe">
+      
+      <source src="audio/fatjoe_1.ogg" type="audio/ogg">
+      
+      <source src="audio/fatjoe_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c110" class="artists-fatjoe">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fatjoe.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Fat Joe</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Fat Joe" class="fatjoe">
+      
+      <source src="audio/fatjoe_9.ogg" type="audio/ogg">
+      
+      <source src="audio/fatjoe_9.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c111" class="artists-fatjoe">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fatjoe.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Fat Joe</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Fat Joe" class="fatjoe">
+      
+      <source src="audio/fatjoe_5.ogg" type="audio/ogg">
+      
+      <source src="audio/fatjoe_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c112" class="artists-fetty new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fetty.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Fetty Wap</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Fetty Wap" class="fetty">
+      
+      <source src="audio/fetty_1738.ogg" type="audio/ogg">
+      
+      <source src="audio/fetty_1738.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c113" class="artists-fetty new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fetty.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Fetty Wap</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Fetty Wap" class="fetty">
+      
+      <source src="audio/fetty_hey2.ogg" type="audio/ogg">
+      
+      <source src="audio/fetty_hey2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c114" class="artists-fetty new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/fetty.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Fetty Wap</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Fetty Wap" class="fetty">
+      
+      <source src="audio/fetty_yeahbaby.ogg" type="audio/ogg">
+      
+      <source src="audio/fetty_yeahbaby.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c115" class="artists-flava">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/flava.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Flavor Flav</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Flavor Flav" class="flava">
+      
+      <source src="audio/flava_1.ogg" type="audio/ogg">
+      
+      <source src="audio/flava_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c116" class="artists-foxy new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/foxy.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Foxy Brown</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Foxy Brown" class="foxy">
+      
+      <source src="audio/foxy_yeah.ogg" type="audio/ogg">
+      
+      <source src="audio/foxy_yeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c117" class="artists-foxy new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/foxy.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Foxy Brown</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Foxy Brown" class="foxy">
+      
+      <source src="audio/foxy_unh2.ogg" type="audio/ogg">
+      
+      <source src="audio/foxy_unh2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c118" class="artists-foxy new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/foxy.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Foxy Brown</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Foxy Brown" class="foxy">
+      
+      <source src="audio/foxy_heyo.ogg" type="audio/ogg">
+      
+      <source src="audio/foxy_heyo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c119" class="artists-freeway">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/freeway.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Freeway</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Freeway" class="freeway">
+      
+      <source src="audio/freeway_1.ogg" type="audio/ogg">
+      
+      <source src="audio/freeway_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c120" class="artists-frenchie">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/frenchie.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">French Montana</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="French Montana" class="frenchie">
+      
+      <source src="audio/french_1.ogg" type="audio/ogg">
+      
+      <source src="audio/french_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c121" class="artists-frenchie new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/frenchie.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">French Montana</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="French Montana" class="frenchie">
+      
+      <source src="audio/french_haan.ogg" type="audio/ogg">
+      
+      <source src="audio/french_haan.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c122" class="artists-future new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/future.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Future</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Future" class="future">
+      
+      <source src="audio/future_brrr.ogg" type="audio/ogg">
+      
+      <source src="audio/future_brrr.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c123" class="artists-future new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/future.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Future</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Future" class="future">
+      
+      <source src="audio/future_hendrix.ogg" type="audio/ogg">
+      
+      <source src="audio/future_hendrix.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c124" class="artists-future new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/future.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Future</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Future" class="future">
+      
+      <source src="audio/future_hey.ogg" type="audio/ogg">
+      
+      <source src="audio/future_hey.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c125" class="artists-future new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/future.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Future</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Future" class="future">
+      
+      <source src="audio/future_woo.ogg" type="audio/ogg">
+      
+      <source src="audio/future_woo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c126" class="artists-ghostface">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ghostface.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ghostface Killah</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ghostface Killah" class="ghostface">
+      
+      <source src="audio/ghostface_yo.ogg" type="audio/ogg">
+      
+      <source src="audio/ghostface_yo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c127" class="artists-grandmaster">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/grandmaster.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Grandmaster Flash</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Grandmaster Flash" class="grandmaster">
+      
+      <source src="audio/grandmaster_1.ogg" type="audio/ogg">
+      
+      <source src="audio/grandmaster_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c128" class="artists-gucci">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/gucci.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Gucci Mane</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Gucci Mane" class="gucci">
+      
+      <source src="audio/gucci_1.ogg" type="audio/ogg">
+      
+      <source src="audio/gucci_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c129" class="artists-gucci">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/gucci.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Gucci Mane</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Gucci Mane" class="gucci">
+      
+      <source src="audio/gucci_4.ogg" type="audio/ogg">
+      
+      <source src="audio/gucci_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c130" class="artists-gucci">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/gucci.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Gucci Mane</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Gucci Mane" class="gucci">
+      
+      <source src="audio/gucci_14.ogg" type="audio/ogg">
+      
+      <source src="audio/gucci_14.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c131" class="artists-gucci">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/gucci.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Gucci Mane</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Gucci Mane" class="gucci">
+      
+      <source src="audio/gucci_8.ogg" type="audio/ogg">
+      
+      <source src="audio/gucci_8.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c132" class="artists-gucci">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/gucci.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Gucci Mane</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Gucci Mane" class="gucci">
+      
+      <source src="audio/gucci_9.ogg" type="audio/ogg">
+      
+      <source src="audio/gucci_9.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c133" class="artists-hurricane">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/hurricane.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Hurricane Chris</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Hurricane Chris" class="hurricane">
+      
+      <source src="audio/hurricanechris_1.ogg" type="audio/ogg">
+      
+      <source src="audio/hurricanechris_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c134" class="artists-icecube">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/icecube.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ice Cube</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ice Cube" class="icecube">
+      
+      <source src="audio/icecube_1.ogg" type="audio/ogg">
+      
+      <source src="audio/icecube_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c135" class="artists-inspectahdeck">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/inspectahdeck.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Inspctah Deck</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Inspctah Deck" class="inspectahdeck">
+      
+      <source src="audio/inspectahdeck_killahill.ogg" type="audio/ogg">
+      
+      <source src="audio/inspectahdeck_killahill.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c136" class="artists-jadakiss">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jadakiss.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jadakiss</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jadakiss" class="jadakiss">
+      
+      <source src="audio/jadakiss_3.ogg" type="audio/ogg">
+      
+      <source src="audio/jadakiss_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c137" class="artists-jarule">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jarule.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ja Rule</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ja Rule" class="jarule">
+      
+      <source src="audio/jarule_1.ogg" type="audio/ogg">
+      
+      <source src="audio/jarule_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c138" class="artists-jarule">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jarule.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ja Rule</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ja Rule" class="jarule">
+      
+      <source src="audio/jarule_2.ogg" type="audio/ogg">
+      
+      <source src="audio/jarule_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c139" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_7.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_7.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c140" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_9.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_9.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c141" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_1.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c142" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz5.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c143" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz7.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz7.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c144" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz8.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz8.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c145" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_itsthero.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_itsthero.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c146" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_itsyoboy.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_itsyoboy.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c147" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_jiggaman.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_jiggaman.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c148" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_woo.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_woo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c149" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_yessir.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_yessir.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c150" class="artists-jayz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jayz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jay-Z</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jay-Z" class="jayz">
+      
+      <source src="audio/jayz_young.ogg" type="audio/ogg">
+      
+      <source src="audio/jayz_young.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c151" class="artists-jazzypha">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jazzypha.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jazzy Phae</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jazzy Phae" class="jazzypha">
+      
+      <source src="audio/jazzypha_1.ogg" type="audio/ogg">
+      
+      <source src="audio/jazzypha_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c152" class="artists-jcole new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jcole.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">J. Cole</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="J. Cole" class="jcole">
+      
+      <source src="audio/jcole_bitch.ogg" type="audio/ogg">
+      
+      <source src="audio/jcole_bitch.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c153" class="artists-jd">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jd.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jermaine Dupri</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jermaine Dupri" class="jd">
+      
+      <source src="audio/jermaine_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/jermaine_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c154" class="artists-jimjones">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jimjones.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jim Jones</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jim Jones" class="jimjones">
+      
+      <source src="audio/jones_8.ogg" type="audio/ogg">
+      
+      <source src="audio/jones_8.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c155" class="artists-jimjones">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jimjones.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Jim Jones</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Jim Jones" class="jimjones">
+      
+      <source src="audio/jones_14.ogg" type="audio/ogg">
+      
+      <source src="audio/jones_14.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c156" class="artists-juelz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/juelz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Juelz Santana</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Juelz Santana" class="juelz">
+      
+      <source src="audio/juelz_2.ogg" type="audio/ogg">
+      
+      <source src="audio/juelz_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c157" class="artists-juicyj">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/juicyj.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Juicy J</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Juicy J" class="juicyj">
+      
+      <source src="audio/juicyj_1.ogg" type="audio/ogg">
+      
+      <source src="audio/juicyj_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c158" class="artists-juicyj">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/juicyj.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Juicy J</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Juicy J" class="juicyj">
+      
+      <source src="audio/juicyj_8.ogg" type="audio/ogg">
+      
+      <source src="audio/juicyj_8.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c159" class="artists-juicyj">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/juicyj.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Juicy J</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Juicy J" class="juicyj">
+      
+      <source src="audio/juicyj_9.ogg" type="audio/ogg">
+      
+      <source src="audio/juicyj_9.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c160" class="artists-juicyj">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/juicyj.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Juicy J</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Juicy J" class="juicyj">
+      
+      <source src="audio/juicyj_10.ogg" type="audio/ogg">
+      
+      <source src="audio/juicyj_10.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c161" class="artists-juicyj">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/juicyj.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Juicy J</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Juicy J" class="juicyj">
+      
+      <source src="audio/juicyj_7.ogg" type="audio/ogg">
+      
+      <source src="audio/juicyj_7.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c162" class="artists-juicyj new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/juicyj.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Juicy J</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Juicy J" class="juicyj">
+      
+      <source src="audio/juicyj_yeahhoe.ogg" type="audio/ogg">
+      
+      <source src="audio/juicyj_yeahhoe.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c163" class="artists-kanebeatz new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/kanebeatz.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Kane Beatz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Kane Beatz" class="kanebeatz">
+      
+      <source src="audio/kanebeatz_inthebuilding.ogg" type="audio/ogg">
+      
+      <source src="audio/kanebeatz_inthebuilding.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c164" class="artists-kanye">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/kanye.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Kanye West</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Kanye West" class="kanye">
+      
+      <source src="audio/kanye_1.ogg" type="audio/ogg">
+      
+      <source src="audio/kanye_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c165" class="artists-kanye new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/kanye.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Kanye West</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Kanye West" class="kanye">
+      
+      <source src="audio/kanye_ouh.ogg" type="audio/ogg">
+      
+      <source src="audio/kanye_ouh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c166" class="artists-kanye new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/kanye.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Kanye West</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Kanye West" class="kanye">
+      
+      <source src="audio/kanye_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/kanye_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c167" class="artists-kendrick new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/kendrick.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Kendrick Lamar</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Kendrick Lamar" class="kendrick">
+      
+      <source src="audio/kendrick_biatch3.ogg" type="audio/ogg">
+      
+      <source src="audio/kendrick_biatch3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c168" class="artists-kendrick new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/kendrick.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Kendrick Lamar</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Kendrick Lamar" class="kendrick">
+      
+      <source src="audio/kendrick_tootoo.ogg" type="audio/ogg">
+      
+      <source src="audio/kendrick_tootoo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c169" class="artists-killermike">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/killermike.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Killer Mike</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Killer Mike" class="killermike">
+      
+      <source src="audio/killermike_2.ogg" type="audio/ogg">
+      
+      <source src="audio/killermike_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c170" class="artists-killermike">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/killermike.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Killer Mike</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Killer Mike" class="killermike">
+      
+      <source src="audio/killermike_3.ogg" type="audio/ogg">
+      
+      <source src="audio/killermike_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c171" class="artists-krsone">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/krsone.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">KRS One</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="KRS One" class="krsone">
+      
+      <source src="audio/krsone_1.ogg" type="audio/ogg">
+      
+      <source src="audio/krsone_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c172" class="artists-lilb">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lilb.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil B</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil B" class="lilb">
+      
+      <source src="audio/lilb_1.ogg" type="audio/ogg">
+      
+      <source src="audio/lilb_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c173" class="artists-lilb">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lilb.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil B</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil B" class="lilb">
+      
+      <source src="audio/lilb_2.ogg" type="audio/ogg">
+      
+      <source src="audio/lilb_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c174" class="artists-liljon">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/liljon.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Jon</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Jon" class="liljon">
+      
+      <source src="audio/liljon_2.ogg" type="audio/ogg">
+      
+      <source src="audio/liljon_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c175" class="artists-liljon">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/liljon.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Jon</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Jon" class="liljon">
+      
+      <source src="audio/liljon_3.ogg" type="audio/ogg">
+      
+      <source src="audio/liljon_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c176" class="artists-liljon">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/liljon.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Jon</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Jon" class="liljon">
+      
+      <source src="audio/liljon_8.ogg" type="audio/ogg">
+      
+      <source src="audio/liljon_8.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c177" class="artists-liljon">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/liljon.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Jon</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Jon" class="liljon">
+      
+      <source src="audio/liljon_4.ogg" type="audio/ogg">
+      
+      <source src="audio/liljon_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c178" class="artists-lilkim new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lilkim.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Kim</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Kim" class="lilkim">
+      
+      <source src="audio/lilkim_queenb.ogg" type="audio/ogg">
+      
+      <source src="audio/lilkim_queenb.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c179" class="artists-lilkim new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lilkim.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Kim</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Kim" class="lilkim">
+      
+      <source src="audio/lilkim_uhunh.ogg" type="audio/ogg">
+      
+      <source src="audio/lilkim_uhunh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c180" class="artists-lilscrappy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lilscrappy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Scrappy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Scrappy" class="lilscrappy">
+      
+      <source src="audio/lilscrappy_1.ogg" type="audio/ogg">
+      
+      <source src="audio/lilscrappy_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c181" class="artists-liluzivert new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/liluzivert.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Uzi Vert</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Uzi Vert" class="liluzivert">
+      
+      <source src="audio/liluzivert_yah2.ogg" type="audio/ogg">
+      
+      <source src="audio/liluzivert_yah2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c182" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_14.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_14.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c183" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_22.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_22.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c184" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_29.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_29.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c185" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_4.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c186" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_16.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_16.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c187" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_17.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_17.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c188" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_25.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_25.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c189" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_30.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_30.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c190" class="artists-weezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/weezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Wayne</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Wayne" class="weezy">
+      
+      <source src="audio/weezy_31.ogg" type="audio/ogg">
+      
+      <source src="audio/weezy_31.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c191" class="artists-lilyachty new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lilyachty.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lil Yachty</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lil Yachty" class="lilyachty">
+      
+      <source src="audio/lilyachty_lilboat.ogg" type="audio/ogg">
+      
+      <source src="audio/lilyachty_lilboat.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c192" class="artists-lloydbanks">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lloydbanks.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lloyd Banks</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lloyd Banks" class="lloydbanks">
+      
+      <source src="audio/banks_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/banks_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c193" class="artists-lloydbanks">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/lloydbanks.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Lloyd Banks</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Lloyd Banks" class="lloydbanks">
+      
+      <source src="audio/banks_yeah.ogg" type="audio/ogg">
+      
+      <source src="audio/banks_yeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c194" class="artists-ludacris">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ludacris.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ludacris</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ludacris" class="ludacris">
+      
+      <source src="audio/ludacris_2.ogg" type="audio/ogg">
+      
+      <source src="audio/ludacris_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c195" class="artists-ludacris">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ludacris.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ludacris</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ludacris" class="ludacris">
+      
+      <source src="audio/ludacris_woo.ogg" type="audio/ogg">
+      
+      <source src="audio/ludacris_woo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c196" class="artists-madeintyo new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/madeintyo.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Madeintyo</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Madeintyo" class="madeintyo">
+      
+      <source src="audio/madeintyo_skrrskrr.ogg" type="audio/ogg">
+      
+      <source src="audio/madeintyo_skrrskrr.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c197" class="artists-mannie">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mannie.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Mannie Fresh</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Mannie Fresh" class="mannie">
+      
+      <source src="audio/mannie_1.ogg" type="audio/ogg">
+      
+      <source src="audio/mannie_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c198" class="artists-mannie">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mannie.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Mannie Fresh</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Mannie Fresh" class="mannie">
+      
+      <source src="audio/mannie_2.ogg" type="audio/ogg">
+      
+      <source src="audio/mannie_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c199" class="artists-mastaace new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mastaace.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Masta Ace</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Masta Ace" class="mastaace">
+      
+      <source src="audio/mastaace_awwyeah.ogg" type="audio/ogg">
+      
+      <source src="audio/mastaace_awwyeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c200" class="artists-mceight">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mceight.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">MC Eiht</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="MC Eiht" class="mceight">
+      
+      <source src="audio/mceiht_1.ogg" type="audio/ogg">
+      
+      <source src="audio/mceiht_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c201" class="artists-mchammer">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mchammer.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">MC Hammer</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="MC Hammer" class="mchammer">
+      
+      <source src="audio/mchammer_1.ogg" type="audio/ogg">
+      
+      <source src="audio/mchammer_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c202" class="artists-meekmill new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/meekmill.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Meek Mill</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Meek Mill" class="meekmill">
+      
+      <source src="audio/meek_bow.ogg" type="audio/ogg">
+      
+      <source src="audio/meek_bow.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c203" class="artists-meekmill new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/meekmill.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Meek Mill</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Meek Mill" class="meekmill">
+      
+      <source src="audio/meek_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/meek_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c204" class="artists-methodman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/methodman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Method Man</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Method Man" class="methodman">
+      
+      <source src="audio/methodman_1.ogg" type="audio/ogg">
+      
+      <source src="audio/methodman_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c205" class="artists-methodman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/methodman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Method Man</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Method Man" class="methodman">
+      
+      <source src="audio/methodman_tical.ogg" type="audio/ogg">
+      
+      <source src="audio/methodman_tical.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c206" class="artists-methodman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/methodman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Method Man</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Method Man" class="methodman">
+      
+      <source src="audio/methodman_yo.ogg" type="audio/ogg">
+      
+      <source src="audio/methodman_yo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c207" class="artists-metroboomin new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/metroboomin.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Metro Boomin</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Metro Boomin" class="metroboomin">
+      
+      <source src="audio/metro_somemo.ogg" type="audio/ogg">
+      
+      <source src="audio/metro_somemo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c208" class="artists-mikejones">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mikejones.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Mike Jones</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Mike Jones" class="mikejones">
+      
+      <source src="audio/mikejones_2.ogg" type="audio/ogg">
+      
+      <source src="audio/mikejones_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c209" class="artists-mikejones">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mikejones.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Mike Jones</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Mike Jones" class="mikejones">
+      
+      <source src="audio/mikejones_iceage.ogg" type="audio/ogg">
+      
+      <source src="audio/mikejones_iceage.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c210" class="artists-mikejones">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mikejones.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Mike Jones</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Mike Jones" class="mikejones">
+      
+      <source src="audio/mikejones_jyeah.ogg" type="audio/ogg">
+      
+      <source src="audio/mikejones_jyeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c211" class="artists-mop">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mop.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">M.O.P.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="M.O.P." class="mop">
+      
+      <source src="audio/mop_1.ogg" type="audio/ogg">
+      
+      <source src="audio/mop_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c212" class="artists-mop">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/mop.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">M.O.P.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="M.O.P." class="mop">
+      
+      <source src="audio/mop_2.ogg" type="audio/ogg">
+      
+      <source src="audio/mop_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c213" class="artists-nas">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nas.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nas</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nas" class="nas">
+      
+      <source src="audio/nas_1.ogg" type="audio/ogg">
+      
+      <source src="audio/nas_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c214" class="artists-nas">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nas.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nas</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nas" class="nas">
+      
+      <source src="audio/nas_3.ogg" type="audio/ogg">
+      
+      <source src="audio/nas_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c215" class="artists-nas">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nas.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nas</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nas" class="nas">
+      
+      <source src="audio/nas_6.ogg" type="audio/ogg">
+      
+      <source src="audio/nas_6.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c216" class="artists-natedogg">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/natedogg.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nate Dogg</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nate Dogg" class="natedogg">
+      
+      <source src="audio/natedogg_1.ogg" type="audio/ogg">
+      
+      <source src="audio/natedogg_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c217" class="artists-nicki new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nicki.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nicki Minaj</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nicki Minaj" class="nicki">
+      
+      <source src="audio/nicki_augh.ogg" type="audio/ogg">
+      
+      <source src="audio/nicki_augh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c218" class="artists-nicki new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nicki.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nicki Minaj</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nicki Minaj" class="nicki">
+      
+      <source src="audio/nicki_cat.ogg" type="audio/ogg">
+      
+      <source src="audio/nicki_cat.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c219" class="artists-nicki new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nicki.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nicki Minaj</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nicki Minaj" class="nicki">
+      
+      <source src="audio/nicki_laugh2.ogg" type="audio/ogg">
+      
+      <source src="audio/nicki_laugh2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c220" class="artists-nicki new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nicki.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nicki Minaj</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nicki Minaj" class="nicki">
+      
+      <source src="audio/nicki_ok.ogg" type="audio/ogg">
+      
+      <source src="audio/nicki_ok.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c221" class="artists-nicki new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nicki.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nicki Minaj</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nicki Minaj" class="nicki">
+      
+      <source src="audio/nicki_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/nicki_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c222" class="artists-nicki new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/nicki.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Nicki Minaj</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Nicki Minaj" class="nicki">
+      
+      <source src="audio/nicki_youngmoney.ogg" type="audio/ogg">
+      
+      <source src="audio/nicki_youngmoney.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c223" class="artists-noreaga">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/noreaga.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">N.O.R.E.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="N.O.R.E." class="noreaga">
+      
+      <source src="audio/nore_1.ogg" type="audio/ogg">
+      
+      <source src="audio/nore_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c224" class="artists-biggie">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/biggie.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">The Notorious B.I.G.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="The Notorious B.I.G." class="biggie">
+      
+      <source src="audio/biggie_1.ogg" type="audio/ogg">
+      
+      <source src="audio/biggie_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c225" class="artists-biggie">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/biggie.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">The Notorious B.I.G.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="The Notorious B.I.G." class="biggie">
+      
+      <source src="audio/biggie_2.ogg" type="audio/ogg">
+      
+      <source src="audio/biggie_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c226" class="artists-oj">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/oj.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">OJ Da Juiceman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="OJ Da Juiceman" class="oj">
+      
+      <source src="audio/oj_4.ogg" type="audio/ogg">
+      
+      <source src="audio/oj_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c227" class="artists-odb">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/odb.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ol Dirty Bastard</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ol Dirty Bastard" class="odb">
+      
+      <source src="audio/odb_shimmy.ogg" type="audio/ogg">
+      
+      <source src="audio/odb_shimmy.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c228" class="artists-odb">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/odb.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ol Dirty Bastard</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ol Dirty Bastard" class="odb">
+      
+      <source src="audio/odb_yo.ogg" type="audio/ogg">
+      
+      <source src="audio/odb_yo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c229" class="artists-pharrell">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pharrell.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pharrell</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pharrell" class="pharrell">
+      
+      <source src="audio/pharrell_1.ogg" type="audio/ogg">
+      
+      <source src="audio/pharrell_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c230" class="artists-pharrell">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pharrell.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pharrell</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pharrell" class="pharrell">
+      
+      <source src="audio/pharrell_2.ogg" type="audio/ogg">
+      
+      <source src="audio/pharrell_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c231" class="artists-pill">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pill.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pill</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pill" class="pill">
+      
+      <source src="audio/pill_1.ogg" type="audio/ogg">
+      
+      <source src="audio/pill_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c232" class="artists-pimpc">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pimpc.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pimp C</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pimp C" class="pimpc">
+      
+      <source src="audio/pimpc_4.ogg" type="audio/ogg">
+      
+      <source src="audio/pimpc_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c233" class="artists-pimpc">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pimpc.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pimp C</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pimp C" class="pimpc">
+      
+      <source src="audio/pimpc_1.ogg" type="audio/ogg">
+      
+      <source src="audio/pimpc_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c234" class="artists-pimpc">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pimpc.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pimp C</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pimp C" class="pimpc">
+      
+      <source src="audio/pimpc_sweetjones3.ogg" type="audio/ogg">
+      
+      <source src="audio/pimpc_sweetjones3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c235" class="artists-pitbull">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pitbull.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pitbull</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pitbull" class="pitbull">
+      
+      <source src="audio/pitbull_1.ogg" type="audio/ogg">
+      
+      <source src="audio/pitbull_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c236" class="artists-pitbull">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pitbull.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pitbull</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pitbull" class="pitbull">
+      
+      <source src="audio/pitbull_2.ogg" type="audio/ogg">
+      
+      <source src="audio/pitbull_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c237" class="artists-pitbull">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pitbull.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pitbull</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pitbull" class="pitbull">
+      
+      <source src="audio/pitbull_3.ogg" type="audio/ogg">
+      
+      <source src="audio/pitbull_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c238" class="artists-pitbull">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pitbull.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pitbull</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pitbull" class="pitbull">
+      
+      <source src="audio/pitbull_6.ogg" type="audio/ogg">
+      
+      <source src="audio/pitbull_6.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c239" class="artists-problem new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/problem.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Problem</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Problem" class="problem">
+      
+      <source src="audio/problem_what2.ogg" type="audio/ogg">
+      
+      <source src="audio/problem_what2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c240" class="artists-projectpat">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/projectpat.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Project Pat</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Project Pat" class="projectpat">
+      
+      <source src="audio/projectpat_1.ogg" type="audio/ogg">
+      
+      <source src="audio/projectpat_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c241" class="artists-pushat">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pushat.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pusha T</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pusha T" class="pushat">
+      
+      <source src="audio/pushat_1.ogg" type="audio/ogg">
+      
+      <source src="audio/pushat_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c242" class="artists-pushat">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pushat.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pusha T</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pusha T" class="pushat">
+      
+      <source src="audio/pushat_haha.ogg" type="audio/ogg">
+      
+      <source src="audio/pushat_haha.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c243" class="artists-pushat">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pushat.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pusha T</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pusha T" class="pushat">
+      
+      <source src="audio/pushat_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/pushat_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c244" class="artists-pushat new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/pushat.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Pusha T</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Pusha T" class="pushat">
+      
+      <source src="audio/pushat_haha3.ogg" type="audio/ogg">
+      
+      <source src="audio/pushat_haha3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c245" class="artists-quavo new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/quavo.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Quavo</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Quavo" class="quavo">
+      
+      <source src="audio/quavo_ayy.ogg" type="audio/ogg">
+      
+      <source src="audio/quavo_ayy.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c246" class="artists-quavo new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/quavo.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Quavo</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Quavo" class="quavo">
+      
+      <source src="audio/quavo_gone2.ogg" type="audio/ogg">
+      
+      <source src="audio/quavo_gone2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c247" class="artists-quavo new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/quavo.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Quavo</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Quavo" class="quavo">
+      
+      <source src="audio/quavo_ugh.ogg" type="audio/ogg">
+      
+      <source src="audio/quavo_ugh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c248" class="artists-quavo new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/quavo.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Quavo</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Quavo" class="quavo">
+      
+      <source src="audio/quavo_youngnigga.ogg" type="audio/ogg">
+      
+      <source src="audio/quavo_youngnigga.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c249" class="artists-quavo new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/quavo.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Quavo</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Quavo" class="quavo">
+      
+      <source src="audio/quavo_migo.ogg" type="audio/ogg">
+      
+      <source src="audio/quavo_migo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c250" class="artists-raekwon">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/raekwon.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Raekwon</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Raekwon" class="raekwon">
+      
+      <source src="audio/raekwon_yo.ogg" type="audio/ogg">
+      
+      <source src="audio/raekwon_yo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c251" class="artists-raesremmurd new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/raesremmurd.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Rae Sremmurd</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Rae Sremmurd" class="raesremmurd">
+      
+      <source src="audio/raesremmurd_hay.ogg" type="audio/ogg">
+      
+      <source src="audio/raesremmurd_hay.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c252" class="artists-redman">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/redman.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Redman</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Redman" class="redman">
+      
+      <source src="audio/redman_heyo.ogg" type="audio/ogg">
+      
+      <source src="audio/redman_heyo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c253" class="artists-richhomie new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/richhomie.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Rich Homie Quan</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Rich Homie Quan" class="richhomie">
+      
+      <source src="audio/richhomie_hey.ogg" type="audio/ogg">
+      
+      <source src="audio/richhomie_hey.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c254" class="artists-richhomie new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/richhomie.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Rich Homie Quan</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Rich Homie Quan" class="richhomie">
+      
+      <source src="audio/richhomie_quan.ogg" type="audio/ogg">
+      
+      <source src="audio/richhomie_quan.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c255" class="artists-ross">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ross.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Rick Ross</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Rick Ross" class="ross">
+      
+      <source src="audio/ross_1.ogg" type="audio/ogg">
+      
+      <source src="audio/ross_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c256" class="artists-ross">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ross.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Rick Ross</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Rick Ross" class="ross">
+      
+      <source src="audio/ross_2.ogg" type="audio/ogg">
+      
+      <source src="audio/ross_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c257" class="artists-ross">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ross.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Rick Ross</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Rick Ross" class="ross">
+      
+      <source src="audio/ross_4.ogg" type="audio/ogg">
+      
+      <source src="audio/ross_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c258" class="artists-ross">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ross.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Rick Ross</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Rick Ross" class="ross">
+      
+      <source src="audio/ross_woo.ogg" type="audio/ogg">
+      
+      <source src="audio/ross_woo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c259" class="artists-schoolboyq new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/schoolboyq.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Schoolboy Q</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Schoolboy Q" class="schoolboyq">
+      
+      <source src="audio/schoolboy_yawk.ogg" type="audio/ogg">
+      
+      <source src="audio/schoolboy_yawk.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c260" class="artists-seanprice">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/seanprice.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Sean Price</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Sean Price" class="seanprice">
+      
+      <source src="audio/seanprice_1.ogg" type="audio/ogg">
+      
+      <source src="audio/seanprice_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c261" class="artists-thugga">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/thugga.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Slim Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Slim Thug" class="thugga">
+      
+      <source src="audio/thugga_2.ogg" type="audio/ogg">
+      
+      <source src="audio/thugga_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c262" class="artists-thugga">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/thugga.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Slim Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Slim Thug" class="thugga">
+      
+      <source src="audio/thugga_3.ogg" type="audio/ogg">
+      
+      <source src="audio/thugga_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c263" class="artists-snoop">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/snoop.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Snoop Dogg</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Snoop Dogg" class="snoop">
+      
+      <source src="audio/snoop_5.ogg" type="audio/ogg">
+      
+      <source src="audio/snoop_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c264" class="artists-snoop">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/snoop.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Snoop Dogg</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Snoop Dogg" class="snoop">
+      
+      <source src="audio/snoop_4.ogg" type="audio/ogg">
+      
+      <source src="audio/snoop_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c265" class="artists-snoop">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/snoop.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Snoop Dogg</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Snoop Dogg" class="snoop">
+      
+      <source src="audio/snoop_1.ogg" type="audio/ogg">
+      
+      <source src="audio/snoop_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c266" class="artists-soulja">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/soulja.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Soulja Boy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Soulja Boy" class="soulja">
+      
+      <source src="audio/soulja_2.ogg" type="audio/ogg">
+      
+      <source src="audio/soulja_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c267" class="artists-soulja">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/soulja.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Soulja Boy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Soulja Boy" class="soulja">
+      
+      <source src="audio/soulja_4.ogg" type="audio/ogg">
+      
+      <source src="audio/soulja_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c268" class="artists-soulja">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/soulja.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Soulja Boy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Soulja Boy" class="soulja">
+      
+      <source src="audio/soulja_5.ogg" type="audio/ogg">
+      
+      <source src="audio/soulja_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c269" class="artists-swizz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/swizz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Swizz Beatz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Swizz Beatz" class="swizz">
+      
+      <source src="audio/swizz_1.ogg" type="audio/ogg">
+      
+      <source src="audio/swizz_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c270" class="artists-swizz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/swizz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Swizz Beatz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Swizz Beatz" class="swizz">
+      
+      <source src="audio/swizz_goddamit.ogg" type="audio/ogg">
+      
+      <source src="audio/swizz_goddamit.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c271" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_ayy.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_ayy.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c272" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_bitch.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_bitch.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c273" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_graaa.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_graaa.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c274" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_lean.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_lean.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c275" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_money.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_money.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c276" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_takeoff.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_takeoff.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c277" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_woo.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_woo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c278" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_woowoo.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_woowoo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c279" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_damn.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_damn.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c280" class="artists-takeoff new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/takeoff.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Takeoff</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Takeoff" class="takeoff">
+      
+      <source src="audio/takeoff_ugh.ogg" type="audio/ogg">
+      
+      <source src="audio/takeoff_ugh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c281" class="artists-ti">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ti.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">T.I.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="T.I." class="ti">
+      
+      <source src="audio/ti_5.ogg" type="audio/ogg">
+      
+      <source src="audio/ti_5.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c282" class="artists-ti">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ti.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">T.I.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="T.I." class="ti">
+      
+      <source src="audio/ti_2.ogg" type="audio/ogg">
+      
+      <source src="audio/ti_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c283" class="artists-ti">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ti.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">T.I.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="T.I." class="ti">
+      
+      <source src="audio/ti_3.ogg" type="audio/ogg">
+      
+      <source src="audio/ti_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c284" class="artists-ti">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ti.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">T.I.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="T.I." class="ti">
+      
+      <source src="audio/ti_22.ogg" type="audio/ogg">
+      
+      <source src="audio/ti_22.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c285" class="artists-ti">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/ti.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">T.I.</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="T.I." class="ti">
+      
+      <source src="audio/ti_32.ogg" type="audio/ogg">
+      
+      <source src="audio/ti_32.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c286" class="artists-tooshort">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/tooshort.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Too $hort</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Too $hort" class="tooshort">
+      
+      <source src="audio/tooshort_1.ogg" type="audio/ogg">
+      
+      <source src="audio/tooshort_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c287" class="artists-tpain">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/tpain.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">T-Pain</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="T-Pain" class="tpain">
+      
+      <source src="audio/tpain_2.ogg" type="audio/ogg">
+      
+      <source src="audio/tpain_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c288" class="artists-tpain">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/tpain.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">T-Pain</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="T-Pain" class="tpain">
+      
+      <source src="audio/tpain1.ogg" type="audio/ogg">
+      
+      <source src="audio/tpain1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c289" class="artists-trapaholics new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/trapaholics.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Trapaholics</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Trapaholics" class="trapaholics">
+      
+      <source src="audio/trapaholics_1.ogg" type="audio/ogg">
+      
+      <source src="audio/trapaholics_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c290" class="artists-trapaholics new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/trapaholics.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Trapaholics</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Trapaholics" class="trapaholics">
+      
+      <source src="audio/trapaholics_damnson.ogg" type="audio/ogg">
+      
+      <source src="audio/trapaholics_damnson.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c291" class="artists-travisscott new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/travisscott.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Travis Scott</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Travis Scott" class="travisscott">
+      
+      <source src="audio/traviscott_laflame.ogg" type="audio/ogg">
+      
+      <source src="audio/traviscott_laflame.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c292" class="artists-travisscott new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/travisscott.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Travis Scott</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Travis Scott" class="travisscott">
+      
+      <source src="audio/traviscott_straightup.ogg" type="audio/ogg">
+      
+      <source src="audio/traviscott_straightup.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c293" class="artists-travisscott new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/travisscott.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Travis Scott</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Travis Scott" class="travisscott">
+      
+      <source src="audio/traviscott_yah.ogg" type="audio/ogg">
+      
+      <source src="audio/traviscott_yah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c294" class="artists-treysongz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/treysongz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Trey Songz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Trey Songz" class="treysongz">
+      
+      <source src="audio/treysongz_4.ogg" type="audio/ogg">
+      
+      <source src="audio/treysongz_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c295" class="artists-treysongz new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/treysongz.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Trey Songz</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Trey Songz" class="treysongz">
+      
+      <source src="audio/treysongz_uhunh.ogg" type="audio/ogg">
+      
+      <source src="audio/treysongz_uhunh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c296" class="artists-trickdaddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/trickdaddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Trick Daddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Trick Daddy" class="trickdaddy">
+      
+      <source src="audio/trick_1.ogg" type="audio/ogg">
+      
+      <source src="audio/trick_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c297" class="artists-trickdaddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/trickdaddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Trick Daddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Trick Daddy" class="trickdaddy">
+      
+      <source src="audio/trick_2.ogg" type="audio/ogg">
+      
+      <source src="audio/trick_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c298" class="artists-trickdaddy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/trickdaddy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Trick Daddy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Trick Daddy" class="trickdaddy">
+      
+      <source src="audio/trick_4.ogg" type="audio/ogg">
+      
+      <source src="audio/trick_4.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c299" class="artists-tydolla new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/tydolla.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Ty Dolla $ign</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Ty Dolla $ign" class="tydolla">
+      
+      <source src="audio/tydolla_dollasign.ogg" type="audio/ogg">
+      
+      <source src="audio/tydolla_dollasign.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c300" class="artists-tyga">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/tyga.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Tyga</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Tyga" class="tyga">
+      
+      <source src="audio/tyga_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/tyga_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c301" class="artists-vado">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/vado.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Vado</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Vado" class="vado">
+      
+      <source src="audio/vado_1.ogg" type="audio/ogg">
+      
+      <source src="audio/vado_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c302" class="artists-waka">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/waka.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Waka Flocka Flame</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Waka Flocka Flame" class="waka">
+      
+      <source src="audio/waka_1.ogg" type="audio/ogg">
+      
+      <source src="audio/waka_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c303" class="artists-waka">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/waka.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Waka Flocka Flame</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Waka Flocka Flame" class="waka">
+      
+      <source src="audio/waka_8.ogg" type="audio/ogg">
+      
+      <source src="audio/waka_8.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c304" class="artists-willsmith">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/willsmith.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Will Smith</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Will Smith" class="willsmith">
+      
+      <source src="audio/willsmith_1.ogg" type="audio/ogg">
+      
+      <source src="audio/willsmith_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c305" class="artists-willsmith">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/willsmith.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Will Smith</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Will Smith" class="willsmith">
+      
+      <source src="audio/willsmith_2.ogg" type="audio/ogg">
+      
+      <source src="audio/willsmith_2.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c306" class="artists-willsmith">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/willsmith.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Will Smith</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Will Smith" class="willsmith">
+      
+      <source src="audio/willsmith_3.ogg" type="audio/ogg">
+      
+      <source src="audio/willsmith_3.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c307" class="artists-wiz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/wiz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Wiz Khalifa</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Wiz Khalifa" class="wiz">
+      
+      <source src="audio/wiz_1.ogg" type="audio/ogg">
+      
+      <source src="audio/wiz_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c308" class="artists-wiz">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/wiz.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Wiz Khalifa</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Wiz Khalifa" class="wiz">
+      
+      <source src="audio/wiz_unh.ogg" type="audio/ogg">
+      
+      <source src="audio/wiz_unh.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c309" class="artists-yg new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/yg.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">YG</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="YG" class="yg">
+      
+      <source src="audio/yg_skrrt.ogg" type="audio/ogg">
+      
+      <source src="audio/yg_skrrt.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c310" class="artists-yogotti new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/yogotti.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Yo Gotti</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Yo Gotti" class="yogotti">
+      
+      <source src="audio/yogotti_yeah.ogg" type="audio/ogg">
+      
+      <source src="audio/yogotti_yeah.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c311" class="artists-jeezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jeezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Jeezy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Jeezy" class="jeezy">
+      
+      <source src="audio/jeezy_10.ogg" type="audio/ogg">
+      
+      <source src="audio/jeezy_10.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c312" class="artists-jeezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jeezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Jeezy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Jeezy" class="jeezy">
+      
+      <source src="audio/jeezy_11.ogg" type="audio/ogg">
+      
+      <source src="audio/jeezy_11.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c313" class="artists-jeezy">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/jeezy.png);"></li>
+        
+	<div id="newTag" class="false">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Jeezy</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Jeezy" class="jeezy">
+      
+      <source src="audio/jeezy_1.ogg" type="audio/ogg">
+      
+      <source src="audio/jeezy_1.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c314" class="artists-youngthug new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/youngthug.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Thug" class="youngthug">
+      
+      <source src="audio/youngthug_boss.ogg" type="audio/ogg">
+      
+      <source src="audio/youngthug_boss.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c315" class="artists-youngthug new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/youngthug.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Thug" class="youngthug">
+      
+      <source src="audio/youngthug_ew.ogg" type="audio/ogg">
+      
+      <source src="audio/youngthug_ew.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c316" class="artists-youngthug new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/youngthug.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Thug" class="youngthug">
+      
+      <source src="audio/youngthug_git.ogg" type="audio/ogg">
+      
+      <source src="audio/youngthug_git.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c317" class="artists-youngthug new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/youngthug.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Thug" class="youngthug">
+      
+      <source src="audio/youngthug_ish.ogg" type="audio/ogg">
+      
+      <source src="audio/youngthug_ish.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c318" class="artists-youngthug new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/youngthug.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Thug" class="youngthug">
+      
+      <source src="audio/youngthug_phoo.ogg" type="audio/ogg">
+      
+      <source src="audio/youngthug_phoo.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li><li id="c319" class="artists-youngthug new">
+
+    <li id="rappersImages" class="rapperImage" style="background-image: url(images/artist/youngthug.png);"></li>
+        
+	<div id="newTag" class="true">
+	</div>
+	    
+	<div class="tooltip">
+      <span class="content">Young Thug</span>
+      <span class="triangle"></span>
+    </div>
+
+    <audio preload="none" title="Young Thug" class="youngthug">
+      
+      <source src="audio/youngthug_wha.ogg" type="audio/ogg">
+      
+      <source src="audio/youngthug_wha.mp3" type="audio/mp3">
+      
+    </audio>
+	
+</li></ul>
+     <div class="clear"></div>
+  </div>
+</div>
+
+ 
+<!-- FOOTER -->
+
+<section class="footer">
+
+<div id="container">
+  <footer><p>Comments? Suggestions? <a href="mailto:holler@therapboard.com" target="_blank">holler@therapboard.com</a>  &nbsp;•&nbsp;  Created by <a href="http://www.lpriel.com" target="_blank">LP Riel</a>
+    </p>
+    </footer>
+    
+   
+
+  
+ </div>
+ </section>
+
+
+
+
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>

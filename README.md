@@ -1,78 +1,98 @@
-`beepr`: Easily Play Notification Sounds on any Platform
-========================================================
+# `BRRR`
 
-`beepr` is an R package that contains one function, `beep()`, with one purpose: To make it easy to play notification sounds on whatever platform you are on. It is intended to be useful, for example, if you are running a long analysis in the background and want to know when it is ready. 
+Let Gucci Mane tell you when your script is done.
+=================================================
 
-This package was previously called `pingr` and included a `ping()` function. It has been renamed in order to not be confused with the Unix tool [ping](http://en.wikipedia.org/wiki/Ping_%28networking_utility%29). For the rationale behind `beepr` see the original announcement: http://sumsar.net/blog/2014/01/announcing-pingr/
+<center>
+![](inst/imgs/BRRR.png)
+</center>
+Have you ever wanted to know - and celebrate - when your simulations are
+finally done running in R? Have you ever been so proud of pulling of a
+tricky bit of code that you wanted Flavor Flav to yell "yeaaahhhh,
+boi!!" as soon as it successfully completes? Have you ever gotten an
+error message that felt like DJ Khaled yelling, "They don't wanna see us
+win!"
 
+Probably not, but you might now. And now, with BRRR, you can.
+
+Inspired by and building from Rasmus Bååth's magnificent
+[`beepr`](https://github.com/rasmusab/beepr) package, BRRR has one
+function - `skrrrahh()`, which plays a rap adlib when it is called. It
+is useful if you have a script that takes a while to run, and want to be
+notified when it is finished.
+
+`skrrrahh` is spelled with three R's and two H's, according to the
+canonical [Genius.com](https://genius.com/12737380). I will not budge on
+this.
 
 Installation
-----------------
-
-`beepr` is available on [CRAN](http://cran.r-project.org/) and can be installed from within R by running:
-
-```
-install.packages("beepr")
-```
-
-You can also grab the development version of `beepr` directly from github:
-
-```
-library(devtools)
-install_github("rasmusab/beepr")
-```
-
-Requirements
----------------
-
-If you are using Windows or OS X `beepr` relies on the `audio` package for sound playback and no external program is needed.
-
-If you're on Linux `beepr` relies on you having either the `paplay` utility from the Pulse Audio system, the `aplay` utility from the ALSA system or [VLC media player](http://www.videolan.org/vlc/index.html) installed and on the PATH. Chances are that you alread have one of these. If you are on Debian/Ubuntu you can otherwise get VLC by running the following in a terminal:
-
-```
-sudo apt-get install vlc
-```
-
-Details
 ------------
 
-`beep()` plays a short sound which is useful if you want to get notified, for example, when a script has finished. As an added bonus there are a number of different sounds to choose from.
+`BRRR` is available on Github and can be installed from within R by
+running:
 
-### Usage
+    if(!require(devtools)) {install.packages(devtools)}
+    devtools::install_github("brooke-watson/BRRR")
 
-`beep(sound = 1, expr = NULL)`
+Requirements
+------------
+
+If you are using Windows or OS X `BRRR` relies on the `audio` package
+for sound playback and no external program is needed.
+
+If you're on Linux `BRRR` relies on you having either the `paplay`
+utility from the Pulse Audio system, the `aplay` utility from the ALSA
+system or [VLC media player](http://www.videolan.org/vlc/index.html)
+installed and on the PATH. Chances are that you alread have one of
+these. If you are on Debian/Ubuntu you can otherwise get VLC by running
+the following in a terminal:
+
+    sudo apt-get install vlc
+
+Details
+-------
+
+`skrrrahh` plays a short rap adlib which is useful if you want to get
+notified, for example, when a script has finished. The package currently
+includes 51 different sounds from *a number of different artists*. 50/51
+of the sounds are pulled from [The Rap Board](therapboard.com) by [LP
+Riel](http://www.lpriel.com/). \#\#\# Usage
+
+`skrrrahh(sound = 1)` `skrrrahh()` `skrrrahh(0)` `skrrrahh("snoop")`
+`skrrrahh(41)`
 
 ### Arguments
 
-`sound`  character string or number specifying what sound to be played by either specifying one of the built in sounds or specifying the path to a wav file. The default is 1. Possible sounds are:
+`sound` character string or number specifying what sound to be played by
+either specifying one of the built in sounds or specifying the path to a
+wav file. The default is 1. Possible sounds are:
 
-1. "ping"
-2. "coin"
-3. "fanfare"
-4. "complete"
-5. "treasure"
-6. "ready"
-7. "shotgun"
-8. "mario"
-9. "wilhelm"
-10. "facebook"
-11. "sword"
+    ##  [1] "2chainz"    "2chainz1"   "bigboi"     "biggie"     "bigsean"   
+    ##  [6] "bigsean1"   "bigsean2"   "bigsean3"   "bigsean4"   "bigsean5"  
+    ## [11] "bigshaq"    "birdman"    "birdman1"   "birdman2"   "busta"     
+    ## [16] "chance"     "desiigner"  "diddy"      "drake"      "drake1"    
+    ## [21] "drummaboy"  "fetty"      "flava"      "future"     "gucci"     
+    ## [26] "gucci1"     "gucci2"     "jayz"       "jayz1.wav"  "kendrick"  
+    ## [31] "khaled"     "khaled1"    "khaled2"    "khaled3"    "liljon"    
+    ## [36] "liljon1"    "nicki"      "pitbull"    "ross"       "ross1"     
+    ## [41] "schoolboy"  "snoop"      "soulja"     "takeoff"    "tpain.wav" 
+    ## [46] "traviscott" "treysongz"  "trick"      "waka"       "weezy"     
+    ## [51] "yg"
 
-If `sound` does not match any of the sounds above, or is a valid path, a random sound will be played.
-
-`expr`	An optional expression to be executed before the sound.
+If `sound` does not match any of the sounds above, or is a valid path, a
+random sound will be played.
 
 ### Examples
 
-```
-# Update all packages and "ping" when it's ready
-update.packages(ask=FALSE); beep()
+    # Play a random rap adlib.
+    skrrrahh(0)
 
-#Play a fanfare instead of a "ping".
-beep("fanfare")
-#or
-beep(3)
+    # Update all packages and have Big Sean yell "Whoa Dere" when it is ready.  
+    update.packages(ask=FALSE); skrrrahh(10)
 
-# Play a random sound
-beep(0)
-```
+    # Change your options to have DJ Khaled console you everytime you hit an error
+    # message.
+    options(error = function() {skrrrahh(33)})
+
+    # The ting goes: 
+    skrrrahh(11)

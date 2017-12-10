@@ -1,16 +1,14 @@
-Package: beepr
+Package: BRRR
 Type: Package
-Title: Easily Play Notification Sounds on any Platform
+Title: Rap adlibs in R. 
 Version: 1.2
 Encoding: UTF-8
 Date: 2015-06-13
-Author: Rasmus Bååth <rasmus.baath@gmail.com>
-Maintainer: Rasmus Bååth <rasmus.baath@gmail.com>
-Description: The sole function of this package is beep(), with the purpose to
-    make it easy to play notification sounds on whatever platform you are on.
-    It is intended to be useful, for example, if you are running a long analysis
-    in the background and want to know when it is ready.
+Author: Brooke Watson <brooke.meredith.watson@gmail.com>
+Maintainer: Brooke Watson <brooke.meredith.watson@gmail.com>
+Description: BRRR extends the beepr package to include a number of rap adlibs. The sole function of this package, skrrrahh(), plays a rap adlib wherever it is called. It is intended to add joy and whimsy into R scripts when placed, for example, at the end of a long script to act as an audio alert.
 License: GPL-3
 Imports:
     stringr (>= 1.0.0),
     audio
+RoxygenNote: 5.0.1
