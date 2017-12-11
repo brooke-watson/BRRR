@@ -60,10 +60,12 @@ includes 51 different sounds from *a number of different artists*. 50/51
 of the sounds are pulled from [The Rap Board](therapboard.com) by [LP
 Riel](http://www.lpriel.com/). 
 
+The default sound is, appropriately, "BRRR", by Gucci Mane. The package also features two other iconic Guwop sounds: "'S GUCCI" (`skrrrahh(25)`) and "YEAAAHHH" (`skrrrahh(27)`). Gucci's glow up is a daily inspiration in 2017, and BRRR would not be icey without him. 
+
 ### Usage
 
 ```
-skrrrahh(sound = 1)
+skrrrahh(sound = 26)
 skrrrahh()
 skrrrahh(0)
 skrrrahh("snoop")`
@@ -106,7 +108,7 @@ random sound will be played.
     # The ting goes: 
     skrrrahh(11)
     
-### Some iconic go-to sounds: 
+### Selected References
 
 [The ting goes SKRRRAHH](https://twitter.com/lilbabycurl/status/904208633386369024): `skrrrahh("bigshaq")` or `skrrrahh(10)`
 
@@ -116,5 +118,11 @@ Various "Yeah Bois":
 
 Whistles and Bird Calls: 
 - Two Chainz: `skrrrahh(2)` OR `skrrrahh("twochainz1")`
-- BirdMan: `skrrrahh(12)` OR `skrrrahh("birdman")` AND `skrrrahh(13)` OR `skrrrahh("birdman1")
+- BirdMan: `skrrrahh(12)` OR `skrrrahh("birdman")` AND `skrrrahh(13)` OR `skrrrahh("birdman1")`
 
+Big Sean Doing The Most: 
+- Boi:  `skrrrahh(6)` OR `skrrrahh("bigsean")`
+- Do it: `skrrrahh(7)` OR `skrrrahh("bigsean1")`
+- Stop: `skrrrahh(9)` OR `skrrrahh("bigsean3")`
+- Whoa Dere: `skrrrahh(10)` OR `skrrrahh("bigsean4")`
+- [Oh God](https://www.youtube.com/watch?v=--5uWXZLIi8): `skrrrahh(8)` OR `skrrrahh("bigsean2")`
