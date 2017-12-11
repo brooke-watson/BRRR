@@ -58,10 +58,17 @@ Details
 notified, for example, when a script has finished. The package currently
 includes 51 different sounds from *a number of different artists*. 50/51
 of the sounds are pulled from [The Rap Board](therapboard.com) by [LP
-Riel](http://www.lpriel.com/). \#\#\# Usage
+Riel](http://www.lpriel.com/). 
 
-`skrrrahh(sound = 1)` `skrrrahh()` `skrrrahh(0)` `skrrrahh("snoop")`
-`skrrrahh(41)`
+### Usage
+
+```
+skrrrahh(sound = 1)
+skrrrahh()
+skrrrahh(0)
+skrrrahh("snoop")`
+skrrrahh(41)
+```
 
 ### Arguments
 
@@ -69,7 +76,7 @@ Riel](http://www.lpriel.com/). \#\#\# Usage
 either specifying one of the built in sounds or specifying the path to a
 wav file. The default is 1. Possible sounds are:
 
-    ##  [1] "2chainz"    "2chainz1"   "bigboi"     "biggie"     "bigsean"   
+    ##  [1] "twochainz"  "twochainz1" "bigboi"     "biggie"     "bigsean"   
     ##  [6] "bigsean1"   "bigsean2"   "bigsean3"   "bigsean4"   "bigsean5"  
     ## [11] "bigshaq"    "birdman"    "birdman1"   "birdman2"   "busta"     
     ## [16] "chance"     "desiigner"  "diddy"      "drake"      "drake1"    
@@ -80,7 +87,7 @@ wav file. The default is 1. Possible sounds are:
     ## [41] "schoolboy"  "snoop"      "soulja"     "takeoff"    "tpain.wav" 
     ## [46] "traviscott" "treysongz"  "trick"      "waka"       "weezy"     
     ## [51] "yg"
-
+    
 If `sound` does not match any of the sounds above, or is a valid path, a
 random sound will be played.
 
@@ -98,3 +105,16 @@ random sound will be played.
 
     # The ting goes: 
     skrrrahh(11)
+    
+### Some iconic go-to sounds: 
+
+[The ting goes SKRRRAHH](https://twitter.com/lilbabycurl/status/904208633386369024): `skrrrahh("bigshaq")` or `skrrrahh(10)`
+
+Various "Yeah Bois": 
+- Flavor Flav `skrrrahh("flava")` 
+- Drumma Boy: `skrrrahh("drummaboy")` or `skrrrahh(21)` 
+
+Whistles and Bird Calls: 
+- Two Chainz: `skrrrahh(2)` OR `skrrrahh("twochainz1")`
+- BirdMan: `skrrrahh(12)` OR `skrrrahh("birdman")` AND `skrrrahh(13)` OR `skrrrahh("birdman1")
+
