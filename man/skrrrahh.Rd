@@ -4,16 +4,42 @@
 \alias{skrrrahh}
 \title{Play a short rap ad lib.}
 \usage{
-skrrrahh(sound = 26)
+skrrrahh(sound = 26, expr = NULL)
 }
 \arguments{
 \item{sound}{character string or number specifying what sound to be played by 
 either specifying one of the built in sounds, specifying the path to a wav 
 file or specifying an url. The default is Gucci Mane saying "BRRR", sound 26.
 If \code{sound} does not match any
-of the sounds above, or is a valid path or url, a random sound will be
+of the loaded sounds, or is a valid path or url, a random sound will be
 played. Currently \code{skrrrahh} can only handle http urls, https is not
 supported.}
+
+\item{expr}{An optional expression to be excecuted before the sound.}
+}
+\value{
+NULL 
+
+ @examples 
+ # Play Gucci saying "BRRR"
+ skrrratt()
+\dontrun{
+# Get focused with Jay-Z.
+skrrrahh(29)
+# or
+skrrrahh("jayz1")
+
+# Play a random rap adlib.
+skrrrahh(0)
+
+# Update all packages and have Big Sean yell Whoa Dere when it is ready 
+update.packages(ask=FALSE); skrrrahh(10)
+
+# Change your options to have DJ Khaled yell: They dont wanna see us win!
+# everytime you hit an error message.
+
+options(error = function() {skrrrahh(33)})
+}
 }
 \description{
 \code{skrrrahh} is exactly like \code{beep} from the beepr package 

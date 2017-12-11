@@ -13,16 +13,87 @@
 #'  either specifying one of the built in sounds, specifying the path to a wav 
 #'  file or specifying an url. The default is Gucci Mane saying "BRRR", sound 26.
 #'  If \code{sound} does not match any
-#'  of the sounds above, or is a valid path or url, a random sound will be
+#'  of the loaded sounds, or is a valid path or url, a random sound will be
 #'  played. Currently \code{skrrrahh} can only handle http urls, https is not
 #'  supported.
-#'  
-#'@return NULL
-#'@imports audio stringr
-skrrrahh <- function(sound=26) {
-  
-  sounds <- list.files("inst/adlibs")
-  names(sounds) <- lapply(sounds, sub, pattern = ".wav", replacement = "")
+#'@param expr An optional expression to be excecuted before the sound.
+#'
+#'@return NULL 
+#'
+#'  @examples 
+#'  # Play Gucci saying "BRRR"
+#'  skrrratt()
+#' \dontrun{
+#' # Get focused with Jay-Z.
+#' skrrrahh(29)
+#' # or
+#' skrrrahh("jayz1")
+#' 
+#' # Play a random rap adlib.
+#' skrrrahh(0)
+#' 
+#' # Update all packages and have Big Sean yell Whoa Dere when it is ready 
+#' update.packages(ask=FALSE); skrrrahh(10)
+#' 
+#' # Change your options to have DJ Khaled yell: They dont wanna see us win!
+#' # everytime you hit an error message.
+#' 
+#' options(error = function() {skrrrahh(33)})
+#' }
+#'@export
+skrrrahh <- function(sound=26, expr = NULL) {
+  expr
+  sounds <- c(twochainz = "twochainz.wav", 
+              twochainz1 = "twochainz1.wav", 
+              bigboi = "bigboi.wav", 
+              biggie = "biggie.wav", 
+              bigsean = "bigsean.wav", 
+              bigsean1 = "bigsean1.wav", 
+              bigsean2 = "bigsean2.wav", 
+              bigsean3 = "bigsean3.wav", 
+              bigsean4 = "bigsean4.wav", 
+              bigsean5 = "bigsean5.wav", 
+              bigshaq = "bigshaq.wav", 
+              birdman = "birdman.wav", 
+              birdman1 = "birdman1.wav", 
+              birdman2 = "birdman2.wav", 
+              busta = "busta.wav", 
+              chance = "chance.wav", 
+              desiigner = "desiigner.wav", 
+              diddy = "diddy.wav", 
+              drake = "drake.wav", 
+              drake1 = "drake1.wav", 
+              drummaboy = "drummaboy.wav", 
+              fetty = "fetty.wav", 
+              flava = "flava.wav", 
+              future = "future.wav", 
+              gucci = "gucci.wav", 
+              gucci1 = "gucci1.wav", 
+              gucci2 = "gucci2.wav", 
+              jayz = "jayz.wav", 
+              jayz1 = "jayz1.wav.wav", 
+              kendrick = "kendrick.wav", 
+              khaled = "khaled.wav", 
+              khaled1 = "khaled1.wav", 
+              khaled2 = "khaled2.wav", 
+              khaled3 = "khaled3.wav", 
+              liljon = "liljon.wav", 
+              liljon1 = "liljon1.wav", 
+              nicki = "nicki.wav", 
+              pitbull = "pitbull.wav", 
+              ross = "ross.wav", 
+              ross1 = "ross1.wav", 
+              schoolboy = "schoolboy.wav", 
+              snoop = "snoop.wav", 
+              soulja = "soulja.wav", 
+              takeoff = "takeoff.wav", 
+              tpain = "tpain.wav", 
+              traviscott = "traviscott.wav", 
+              treysongz = "treysongz.wav", 
+              trick = "trick.wav", 
+              waka = "waka.wav", 
+              weezy = "weezy.wav", 
+              yg = "yg.wav")
   sound_path <- NULL
   if(is.na(sounds[sound]) || length(sounds[sound]) != 1) {
     if(is.character(sound)) {
@@ -43,11 +114,11 @@ skrrrahh <- function(sound=26) {
       }
     }
   } else {
-    sound_path <- system.file(paste("inst/adlibs/", sounds[sound], sep=""), package="BRRR")
+    sound_path <- file.path(find.package("BRRR"), "inst/adlibs", sounds[sound])
   }
   
   if(is.null(sound_path)) { # play a random sound
-    sound_path <- system.file(paste("inst/adlibs/", sounds[sample(length(sounds), 1)], sep=""), package="BRRR")
+    sound_path <- file.path(find.package("BRRR"), "inst/adlibs", sounds[sound])
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
@@ -60,7 +131,7 @@ is_wav_fname <- function(fname) {
 }
 
 play_vlc <- function(fname) {
-  system(paste("vlc -Idummy --no-loop --no-repeat --playlist-autostart --no-media-library --play-and-exit", fname), 
+  system(paste("vlc -Idummy --no-loop --no-repeat --playlist-autostart --no-media-library --play-and-exit", fname),
          ignore.stdout = TRUE, ignore.stderr=TRUE,wait = FALSE)
   invisible(NULL)
 }
@@ -95,3 +166,5 @@ play_file <- function(fname) {
     play_audio(fname)
   }
 }
+
+
