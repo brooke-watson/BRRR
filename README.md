@@ -2,10 +2,10 @@
 
 Let Gucci Mane tell you when your script is done.
 =================================================
-
 <center>
-![](inst/imgs/BRRR.png)
+<img src="inst/imgs/BRRR.png"/></img>
 </center>
+
 Have you ever wanted to know - and celebrate - when your simulations are
 finally done running in R? Have you ever been so proud of pulling of a
 tricky bit of code that you wanted Flavor Flav to yell "yeaaahhhh,
