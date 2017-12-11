@@ -12,18 +12,6 @@ win!"
 
 Probably not, but you might now. And now, with BRRR, you can.
 
-Inspired by and building from Rasmus Bååth's magnificent
-[`beepr`](https://github.com/rasmusab/beepr) package, BRRR has one
-function - `skrrrahh()`, which plays a rap adlib when it is called. It
-is useful if you have a script that takes a while to run, and want to be
-notified when it is finished.
-
-
-
-(`skrrrahh()` is spelled with three R's and two H's, according to the
-canonical [Genius.com](https://genius.com/12737380). I will not budge on
-this.)
-
 <img src="inst/imgs/BRRR.png"/></img>
 
 
@@ -54,13 +42,20 @@ the following in a terminal:
 Details
 -------
 
-`skrrrahh()` plays a short rap adlib which is useful if you want to get
-notified, for example, when a script has finished. The package currently
-includes 51 different sounds from 34 artists. 50/51
-of the sounds are pulled from [The Rap Board](therapboard.com) by [LP
+Inspired by and building from Rasmus Bååth's magnificent
+[`beepr`](https://github.com/rasmusab/beepr) package, BRRR has one
+function - `skrrrahh()`, which plays a rap adlib when it is called. It
+is useful if you have a script that takes a while to run, and want to be
+notified when it is finished. The package currently
+includes 51 different sounds from 34 artists, the majority of which are pulled from [The Rap Board](therapboard.com) by [LP
 Riel](http://www.lpriel.com/). 
 
 The default sound is, appropriately, "BRRR", by Gucci Mane. The package also features two other iconic Guwop sounds: "'S GUCCI" (`skrrrahh(25)`) and "YEAAAHHH" (`skrrrahh(27)`). Gucci's glow up is a daily inspiration in 2017, and BRRR would not be icey without him. 
+
+(`skrrrahh()` is spelled with three R's and two H's, according to the
+canonical [Genius.com](https://genius.com/12737380). I will not budge on
+this.)
+
 
 ### Usage
 
