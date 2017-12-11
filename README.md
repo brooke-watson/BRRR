@@ -108,7 +108,7 @@ random sound will be played.
     # The ting goes: 
     skrrrahh(11)
     
-### Selected References
+### Abridged Index
 
 [The ting goes SKRRRAHH](https://twitter.com/lilbabycurl/status/904208633386369024): `skrrrahh("bigshaq")` or `skrrrahh(10)`
 
