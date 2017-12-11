@@ -20,7 +20,7 @@ notified when it is finished.
 
 
 
-(`skrrrahh` is spelled with three R's and two H's, according to the
+(`skrrrahh()` is spelled with three R's and two H's, according to the
 canonical [Genius.com](https://genius.com/12737380). I will not budge on
 this.)
 
@@ -54,9 +54,9 @@ the following in a terminal:
 Details
 -------
 
-`skrrrahh` plays a short rap adlib which is useful if you want to get
+`skrrrahh()` plays a short rap adlib which is useful if you want to get
 notified, for example, when a script has finished. The package currently
-includes 51 different sounds from *a number of different artists*. 50/51
+includes 51 different sounds from 34 artists. 50/51
 of the sounds are pulled from [The Rap Board](therapboard.com) by [LP
 Riel](http://www.lpriel.com/). 
 
@@ -90,7 +90,7 @@ wav file. The default is 1. Possible sounds are:
     ## [46] "traviscott" "treysongz"  "trick"      "waka"       "weezy"     
     ## [51] "yg"
     
-If `sound` does not match any of the sounds above, or is a valid path, a
+If `sound` does not match any of the sounds above, a number between 1 and 51, or a valid `http` path to a `.wav` file, a
 random sound will be played.
 
 ### Examples
