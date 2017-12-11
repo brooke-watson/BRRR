@@ -1,10 +1,7 @@
 # `BRRR`
 
-Let Gucci Mane tell you when your script is done.
-=================================================
-<center>
-<img src="inst/imgs/BRRR.png"/></img>
-</center>
+### Let Gucci Mane tell you when your script is done.
+
 
 Have you ever wanted to know - and celebrate - when your simulations are
 finally done running in R? Have you ever been so proud of pulling of a
@@ -21,9 +18,14 @@ function - `skrrrahh()`, which plays a rap adlib when it is called. It
 is useful if you have a script that takes a while to run, and want to be
 notified when it is finished.
 
-`skrrrahh` is spelled with three R's and two H's, according to the
+
+
+(`skrrrahh` is spelled with three R's and two H's, according to the
 canonical [Genius.com](https://genius.com/12737380). I will not budge on
-this.
+this.)
+
+<img src="inst/imgs/BRRR.png"/></img>
+
 
 Installation
 ------------
