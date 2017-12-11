@@ -18,6 +18,7 @@
 #'  supported.
 #'  
 #'@return NULL
+#'@imports audio stringr
 skrrrahh <- function(sound=26) {
   
   sounds <- list.files("inst/adlibs")
@@ -43,12 +44,10 @@ skrrrahh <- function(sound=26) {
     }
   } else {
     sound_path <- system.file(paste("inst/adlibs/", sounds[sound], sep=""), package="BRRR")
-    # sound_path <- paste(here(), "/inst/adlibs/", sounds[sound], sep = "")
   }
   
   if(is.null(sound_path)) { # play a random sound
     sound_path <- system.file(paste("inst/adlibs/", sounds[sample(length(sounds), 1)], sep=""), package="BRRR")
-    # sound_path <- paste(here(), "/inst/adlibs/", sounds[sample(length(sounds), 1)], sep = "")
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
@@ -96,5 +95,3 @@ play_file <- function(fname) {
     play_audio(fname)
   }
 }
-
-
