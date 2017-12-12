@@ -118,7 +118,7 @@ skrrrahh <- function(sound=26, expr = NULL) {
   }
   
   if(is.null(sound_path)) { # play a random sound
-    sound_path <- file.path(find.package("BRRR"), "adlibs", sounds[sound])
+    sound_path <- file.path(find.package("BRRR"), "adlibs", sample(sounds, size=1))
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
