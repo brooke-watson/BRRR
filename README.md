@@ -105,7 +105,7 @@ random sound will be played.
     
 ### Abridged Index
 
-[The ting goes SKRRRAHH](https://twitter.com/lilbabycurl/status/904208633386369024): `skrrrahh("bigshaq")` or `skrrrahh(10)`
+[The ting goes SKRRRAHH](https://twitter.com/lilbabycurl/status/904208633386369024): `skrrrahh("bigshaq")` or `skrrrahh(11)`
 
 Various "Yeah Bois": 
 - Flavor Flav `skrrrahh("flava")` 
