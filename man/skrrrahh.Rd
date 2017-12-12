@@ -17,12 +17,20 @@ supported.}
 
 \item{expr}{An optional expression to be excecuted before the sound.}
 }
-\value{
-NULL 
-
- @examples 
- # Play Gucci saying "BRRR"
- skrrratt()
+\description{
+\code{skrrrahh} is exactly like \code{beep} from the beepr package 
+(https://cran.r-project.org/web/packages/beepr/index.html). 
+The only difference is in the automatically loaded sounds available. 
+\code{skrrrahh} uses rap adlibs from [The Rap Board](http://therapboard.com/).
+}
+\details{
+If \code{skrrrahh} is not able to play the sound, a warning is issued rather 
+than an error. This is in order to not risk aborting or stopping the process 
+that you wanted to get notified about.
+}
+\examples{
+# Play Gucci saying "BRRR"
+skrrratt()
 \dontrun{
 # Get focused with Jay-Z.
 skrrrahh(29)
@@ -41,15 +49,3 @@ update.packages(ask=FALSE); skrrrahh(10)
 options(error = function() {skrrrahh(33)})
 }
 }
-\description{
-\code{skrrrahh} is exactly like \code{beep} from the beepr package 
-(https://cran.r-project.org/web/packages/beepr/index.html). 
-The only difference is in the automatically loaded sounds available. 
-\code{skrrrahh} uses rap adlibs from [The Rap Board](http://therapboard.com/).
-}
-\details{
-If \code{skrrrahh} is not able to play the sound, a warning is issued rather 
-than an error. This is in order to not risk aborting or stopping the process 
-that you wanted to get notified about.
-}
-
