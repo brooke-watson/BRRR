@@ -20,9 +20,9 @@
 #'
 #'@return NULL 
 #'
-#'  @examples 
-#'  # Play Gucci saying "BRRR"
-#'  skrrratt()
+#' @examples 
+#' # Play Gucci saying "BRRR"
+#' skrrratt()
 #' \dontrun{
 #' # Get focused with Jay-Z.
 #' skrrrahh(29)
