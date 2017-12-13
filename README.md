@@ -78,10 +78,10 @@ wav file. The default is 1. Possible sounds are:
     ## [11] "bigshaq"    "birdman"    "birdman1"   "birdman2"   "busta"     
     ## [16] "chance"     "desiigner"  "diddy"      "drake"      "drake1"    
     ## [21] "drummaboy"  "fetty"      "flava"      "future"     "gucci"     
-    ## [26] "gucci1"     "gucci2"     "jayz"       "jayz1.wav"  "kendrick"  
+    ## [26] "gucci1"     "gucci2"     "jayz"       "jayz1"  "kendrick"  
     ## [31] "khaled"     "khaled1"    "khaled2"    "khaled3"    "liljon"    
     ## [36] "liljon1"    "nicki"      "pitbull"    "ross"       "ross1"     
-    ## [41] "schoolboy"  "snoop"      "soulja"     "takeoff"    "tpain.wav" 
+    ## [41] "schoolboy"  "snoop"      "soulja"     "takeoff"    "tpain" 
     ## [46] "traviscott" "treysongz"  "trick"      "waka"       "weezy"     
     ## [51] "yg"
     
