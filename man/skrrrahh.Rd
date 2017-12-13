@@ -15,7 +15,7 @@ of the loaded sounds, or is a valid path or url, a random sound will be
 played. Currently \code{skrrrahh} can only handle http urls, https is not
 supported.}
 
-\item{expr}{An optional expression to be excecuted before the sound.}
+\item{expr}{An optional expression to be executed before the sound.}
 }
 \value{
 NULL 

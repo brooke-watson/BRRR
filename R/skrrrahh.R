@@ -16,7 +16,7 @@
 #'  of the loaded sounds, or is a valid path or url, a random sound will be
 #'  played. Currently \code{skrrrahh} can only handle http urls, https is not
 #'  supported.
-#'@param expr An optional expression to be excecuted before the sound.
+#'@param expr An optional expression to be executed before the sound.
 #'
 #'@return NULL 
 #'
