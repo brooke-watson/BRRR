@@ -47,7 +47,7 @@ Inspired by and building from Rasmus Bååth's magnificent
 function - `skrrrahh()`, which plays a rap adlib when it is called. It
 is useful if you have a script that takes a while to run, and want to be
 notified when it is finished. The package currently
-includes 51 different sounds from 34 artists, the majority of which are pulled from [The Rap Board](therapboard.com) by [LP
+includes 51 different sounds from 34 artists, the majority of which are pulled from [The Rap Board](http://therapboard.com/) by [LP
 Riel](http://www.lpriel.com/). 
 
 The default sound is, appropriately, "BRRR", by Gucci Mane. The package also features two other iconic Guwop sounds: "'S GUCCI" (`skrrrahh(25)`) and "YEAAAHHH" (`skrrrahh(27)`). Gucci's glow up is a daily inspiration in 2017, and BRRR would not be icey without him. 
@@ -105,7 +105,7 @@ random sound will be played.
     
 ### Abridged Index
 
-[The ting goes SKRRRAHH](https://twitter.com/lilbabycurl/status/904208633386369024): `skrrrahh("bigshaq")` or `skrrrahh(10)`
+[The ting goes SKRRRAHH](https://twitter.com/lilbabycurl/status/904208633386369024): `skrrrahh("bigshaq")` or `skrrrahh(11)`
 
 Various "Yeah Bois": 
 - Flavor Flav `skrrrahh("flava")` 
