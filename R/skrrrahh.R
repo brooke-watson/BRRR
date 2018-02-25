@@ -122,7 +122,7 @@ skrrrahh <- function(sound=26, expr = NULL) {
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
-    warning("beep() could not play the sound due to the following error:\n", ex)
+    warning("BRRR() could not play the sound due to the following error:\n", ex)
   })
 }
 
