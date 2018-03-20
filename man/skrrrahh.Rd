@@ -30,7 +30,7 @@ that you wanted to get notified about.
 }
 \examples{
 # Play Gucci saying "BRRR"
-skrrratt()
+skrrrahh()
 \dontrun{
 # Get focused with Jay-Z.
 skrrrahh(29)
