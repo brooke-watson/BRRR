@@ -71,7 +71,7 @@ skrrrahh(41)
 
 `sound` character string or number specifying what sound to be played by
 either specifying one of the built in sounds or specifying the path to a
-wav file. The default is 1. Possible sounds are:
+wav file. The default is 26. Possible sounds are:
 
     ##  [1] "twochainz"  "twochainz1" "bigboi"     "biggie"     "bigsean"   
     ##  [6] "bigsean1"   "bigsean2"   "bigsean3"   "bigsean4"   "bigsean5"  
