@@ -54,6 +54,7 @@ skrrrahh <- function(sound=26, expr = NULL) {
               bigsean4 = "bigsean4.wav", 
               bigsean5 = "bigsean5.wav", 
               bigshaq = "bigshaq.wav", 
+              bigshaq1 = "bigshaq1.wav",
               birdman = "birdman.wav", 
               birdman1 = "birdman1.wav", 
               birdman2 = "birdman2.wav", 
