@@ -47,10 +47,10 @@ Inspired by and building from Rasmus Bååth's magnificent
 function - `skrrrahh()`, which plays a rap adlib when it is called. It
 is useful if you have a script that takes a while to run, and want to be
 notified when it is finished. The package currently
-includes 51 different sounds from 34 artists, the majority of which are pulled from [The Rap Board](http://therapboard.com/) by [LP
+includes 52 different sounds from 34 artists, the majority of which are pulled from [The Rap Board](http://therapboard.com/) by [LP
 Riel](http://www.lpriel.com/). 
 
-The default sound is, appropriately, "BRRR", by Gucci Mane. The package also features two other iconic Guwop sounds: "'S GUCCI" (`skrrrahh(25)`) and "YEAAAHHH" (`skrrrahh(27)`). Gucci's glow up is a daily inspiration in 2017, and BRRR would not be icey without him. 
+The default sound is, appropriately, "BRRR", by Gucci Mane. The package also features two other iconic Guwop sounds: "'S GUCCI" (`skrrrahh(26)`) and "YEAAAHHH" (`skrrrahh(28)`). Gucci's glow up is a daily inspiration in 2017, and BRRR would not be icey without him. 
 
 (`skrrrahh()` is spelled with three R's and two H's, according to the
 canonical [Genius.com](https://genius.com/12737380). I will not budge on
@@ -71,21 +71,23 @@ skrrrahh(41)
 
 `sound` character string or number specifying what sound to be played by
 either specifying one of the built in sounds or specifying the path to a
-wav file. The default is 26. Possible sounds are:
+wav file. The default is 27. Possible sounds are:
 
-    ##  [1] "twochainz"  "twochainz1" "bigboi"     "biggie"     "bigsean"   
-    ##  [6] "bigsean1"   "bigsean2"   "bigsean3"   "bigsean4"   "bigsean5"  
-    ## [11] "bigshaq"    "birdman"    "birdman1"   "birdman2"   "busta"     
-    ## [16] "chance"     "desiigner"  "diddy"      "drake"      "drake1"    
-    ## [21] "drummaboy"  "fetty"      "flava"      "future"     "gucci"     
-    ## [26] "gucci1"     "gucci2"     "jayz"       "jayz1"  "kendrick"  
-    ## [31] "khaled"     "khaled1"    "khaled2"    "khaled3"    "liljon"    
-    ## [36] "liljon1"    "nicki"      "pitbull"    "ross"       "ross1"     
-    ## [41] "schoolboy"  "snoop"      "soulja"     "takeoff"    "tpain" 
-    ## [46] "traviscott" "treysongz"  "trick"      "waka"       "weezy"     
-    ## [51] "yg"
-    
-If `sound` does not match any of the sounds above, a number between 1 and 51, or a valid `http` path to a `.wav` file, a
+    ## [1] "twochainz"  "twochainz1" "bigboi"     "biggie"    
+    ## [5] "bigsean"    "bigsean1"   "bigsean2"   "bigsean3"  
+    ## [9] "bigsean4"   "bigsean5"   "bigshaq"    "bigshaq1"  
+    ## [13] "birdman"    "birdman1"   "birdman2"   "busta"     
+    ## [17] "chance"     "desiigner"  "diddy"      "drake"     
+    ## [21] "drake1"     "drummaboy"  "fetty"      "flava"     
+    ## [25] "future"     "gucci"      "gucci1"     "gucci2"    
+    ## [29] "jayz"       "jayz1"      "kendrick"   "khaled"    
+    ## [33] "khaled1"    "khaled2"    "khaled3"    "liljon"    
+    ## [37] "liljon1"    "nicki"      "pitbull"    "ross"      
+    ## [41] "ross1"      "schoolboy"  "snoop"      "soulja"    
+    ## [45] "takeoff"    "tpain"      "traviscott" "treysongz" 
+    ## [49] "trick"      "waka"       "weezy"      "yg"        
+        
+If `sound` does not match any of the sounds above, a number between 1 and 52, or a valid `http` path to a `.wav` file, a
 random sound will be played.
 
 ### Examples
@@ -98,7 +100,7 @@ random sound will be played.
 
     # Change your options to have DJ Khaled console you everytime you hit an error
     # message.
-    options(error = function() {skrrrahh(33)})
+    options(error = function() {skrrrahh(34)})
 
     # The ting goes: 
     skrrrahh(11)
@@ -109,11 +111,11 @@ random sound will be played.
 
 Various "Yeah Bois": 
 - Flavor Flav `skrrrahh("flava")` 
-- Drumma Boy: `skrrrahh("drummaboy")` or `skrrrahh(21)` 
+- Drumma Boy: `skrrrahh("drummaboy")` or `skrrrahh(22)` 
 
 Whistles and Bird Calls: 
 - Two Chainz: `skrrrahh(2)` OR `skrrrahh("twochainz1")`
-- BirdMan: `skrrrahh(12)` OR `skrrrahh("birdman")` AND `skrrrahh(13)` OR `skrrrahh("birdman1")`
+- BirdMan: `skrrrahh(13)` OR `skrrrahh("birdman")` AND `skrrrahh(14)` OR `skrrrahh("birdman1")`
 
 Big Sean Doing The Most: 
 - Boi:  `skrrrahh(6)` OR `skrrrahh("bigsean")`
@@ -121,3 +123,7 @@ Big Sean Doing The Most:
 - Stop: `skrrrahh(9)` OR `skrrrahh("bigsean3")`
 - Whoa Dere: `skrrrahh(10)` OR `skrrrahh("bigsean4")`
 - [Oh God](https://www.youtube.com/watch?v=--5uWXZLIi8): `skrrrahh(8)` OR `skrrrahh("bigsean2")`
+
+### Contributing
+
+Inserting new sounds into the list of sounds will change the numerical references.  If you have a new sound you want to add, please add it to the end of the list so the docs don't have to change every time someone makes a PR.
