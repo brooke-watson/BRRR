@@ -73,21 +73,19 @@ skrrrahh(41)
 either specifying one of the built in sounds or specifying the path to a
 wav file. The default is 27. Possible sounds are:
 
-    ## [1] "twochainz"  "twochainz1" "bigboi"     "biggie"    
-    ## [5] "bigsean"    "bigsean1"   "bigsean2"   "bigsean3"  
-    ## [9] "bigsean4"   "bigsean5"   "bigshaq"    "bigshaq1"  
-    ## [13] "birdman"    "birdman1"   "birdman2"   "busta"     
-    ## [17] "chance"     "desiigner"  "diddy"      "drake"     
-    ## [21] "drake1"     "drummaboy"  "fetty"      "flava"     
-    ## [25] "future"     "gucci"      "gucci1"     "gucci2"    
-    ## [29] "jayz"       "jayz1"      "kendrick"   "khaled"    
-    ## [33] "khaled1"    "khaled2"    "khaled3"    "liljon"    
-    ## [37] "liljon1"    "nicki"      "pitbull"    "ross"      
-    ## [41] "ross1"      "schoolboy"  "snoop"      "soulja"    
-    ## [45] "takeoff"    "tpain"      "traviscott" "treysongz" 
-    ## [49] "trick"      "waka"       "weezy"      "yg"        
+    ## [1] "twochainz"  "twochainz1" "bigboi"     "biggie"     "bigsean"   
+    ## [6] "bigsean1"   "bigsean2"   "bigsean3"   "bigsean4"   "bigsean5"  
+    ## [11] "bigshaq"    "bigshaq1"   "birdman"    "birdman1"   "birdman2"  
+    ## [16] "busta"      "chance"     "desiigner"  "diddy"      "drake"     
+    ## [21] "drake1"     "drummaboy"  "fetty"      "flava"      "future"    
+    ## [26] "gucci"      "gucci1"     "gucci2"     "jayz"       "jayz1"     
+    ## [31] "kendrick"   "khaled"     "khaled1"    "khaled2"    "khaled3"   
+    ## [36] "liljon"     "liljon1"    "nicki"      "pitbull"    "ross"      
+    ## [41] "ross1"      "schoolboy"  "snoop"      "soulja"     "takeoff"   
+    ## [46] "tpain"      "traviscott" "treysongz"  "trick"      "waka"      
+    ## [51] "weezy"      "yg"         "kanye"     
         
-If `sound` does not match any of the sounds above, a number between 1 and 52, or a valid `http` path to a `.wav` file, a
+If `sound` does not match any of the sounds above, a number between 1 and 53, or a valid `http` path to a `.wav` file, a
 random sound will be played.
 
 ### Examples
