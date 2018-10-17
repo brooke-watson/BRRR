@@ -11,4 +11,4 @@ License: GPL-3
 Imports:
     stringr (>= 1.0.0),
     audio
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.0.9000
