@@ -32,13 +32,16 @@
 #' # Play a random rap adlib.
 #' skrrrahh(0)
 #' 
+#' \dontrun{
 #' # Update all packages and have Big Sean yell Whoa Dere when it is ready 
 #' update.packages(ask=FALSE); skrrrahh(10)
+#' }
 #' 
 #' # Change your options to have DJ Khaled yell: They dont wanna see us win!
 #' # everytime you hit an error message.
-#' 
+#' \dontrun{
 #' options(error = function() {skrrrahh(34)})
+#' }
 #' }
 #'@export
 skrrrahh <- function(sound=27, expr = NULL) {
