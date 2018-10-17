@@ -4,7 +4,7 @@
 \alias{skrrrahh}
 \title{Play a short rap ad lib.}
 \usage{
-skrrrahh(sound = 26, expr = NULL)
+skrrrahh(sound = 27, expr = NULL)
 }
 \arguments{
 \item{sound}{character string or number specifying what sound to be played by 
@@ -33,7 +33,7 @@ that you wanted to get notified about.
 skrrrahh()
 \dontrun{
 # Get focused with Jay-Z.
-skrrrahh(29)
+skrrrahh(30)
 # or
 skrrrahh("jayz1")
 
@@ -46,6 +46,6 @@ update.packages(ask=FALSE); skrrrahh(10)
 # Change your options to have DJ Khaled yell: They dont wanna see us win!
 # everytime you hit an error message.
 
-options(error = function() {skrrrahh(33)})
+options(error = function() {skrrrahh(34)})
 }
 }

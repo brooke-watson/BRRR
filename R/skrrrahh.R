@@ -105,7 +105,7 @@ skrrrahh <- function(sound=27, expr = NULL) {
         warning("Can't currently use https urls, only http.")
       } else if(str_detect(sound, "^http://")) {
         temp_file <- tempfile(pattern="")
-        if(download.file(sound, destfile = temp_file, quiet = TRUE) == 0) { # The file was successfully downloaded
+        if(utils::download.file(sound, destfile = temp_file, quiet = TRUE) == 0) { # The file was successfully downloaded
           sound_path <- temp_file
         } else {
           warning(paste("Tried but could not download", sound))
