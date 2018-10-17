@@ -115,11 +115,11 @@ skrrrahh <- function(sound=27, expr = NULL) {
       }
     }
   } else {
-    sound_path <- file.path(find.package("BRRR"), "adlibs", sounds[sound])
+    sound_path <- system.file("adlibs", sounds[sound], package = "BRRR")
   }
   
   if(is.null(sound_path)) { # play a random sound
-    sound_path <- file.path(find.package("BRRR"), "adlibs", sample(sounds, size=1))
+    sound_path <- system.file("adlibs", sample(sounds, size=1), package = "BRRR")
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
@@ -167,5 +167,3 @@ play_file <- function(fname) {
     play_audio(fname)
   }
 }
-
-
