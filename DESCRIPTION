@@ -9,6 +9,7 @@ Maintainer: Brooke Watson <brooke.meredith.watson@gmail.com>
 Description: BRRR extends the beepr package to include a number of rap adlibs. The sole function of this package, skrrrahh(), plays a rap adlib wherever it is called. It is intended to add joy and whimsy into R scripts when placed, for example, at the end of a long script to act as an audio alert.
 License: GPL-3
 Imports:
+    audio,
     stringr (>= 1.0.0),
-    audio
+    utils
 RoxygenNote: 5.0.1
