@@ -108,7 +108,7 @@ skrrrahh <- function(sound=27, expr = NULL) {
         warning("Can't currently use https urls, only http.")
       } else if(str_detect(sound, "^http://")) {
         temp_file <- tempfile(pattern="")
-        if(download.file(sound, destfile = temp_file, quiet = TRUE) == 0) { # The file was successfully downloaded
+        if(utils::download.file(sound, destfile = temp_file, quiet = TRUE) == 0) { # The file was successfully downloaded
           sound_path <- temp_file
         } else {
           warning(paste("Tried but could not download", sound))
@@ -118,11 +118,11 @@ skrrrahh <- function(sound=27, expr = NULL) {
       }
     }
   } else {
-    sound_path <- file.path(find.package("BRRR"), "adlibs", sounds[sound])
+    sound_path <- system.file("adlibs", sounds[sound], package = "BRRR")
   }
   
   if(is.null(sound_path)) { # play a random sound
-    sound_path <- file.path(find.package("BRRR"), "adlibs", sample(sounds, size=1))
+    sound_path <- system.file("adlibs", sample(sounds, size=1), package = "BRRR")
   }
   
   tryCatch(play_file(sound_path), error = function(ex) {
@@ -170,5 +170,3 @@ play_file <- function(fname) {
     play_audio(fname)
   }
 }
-
-
