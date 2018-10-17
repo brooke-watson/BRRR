@@ -3,7 +3,7 @@
 #'\code{skrrrahh} is exactly like \code{beep} from the beepr package 
 #'(https://cran.r-project.org/web/packages/beepr/index.html). 
 #'The only difference is in the automatically loaded sounds available. 
-#'\code{skrrrahh} uses rap adlibs from [The Rap Board](http://therapboard.com/). 
+#'\code{skrrrahh} uses rap adlibs from [The Rap Board](http://therapboard.com/). \code{skrrrahh_list} exposes a numbered listing of available sounds.
 #'
 #'If \code{skrrrahh} is not able to play the sound, a warning is issued rather 
 #'than an error. This is in order to not risk aborting or stopping the process 
@@ -23,6 +23,10 @@
 #' @examples 
 #' # Play Gucci saying "BRRR"
 #' skrrrahh()
+#' 
+#' # See the names of available sounds, along with their associated number
+#' skrrrahh_list()
+#' 
 #' \dontrun{
 #' # Get focused with Jay-Z.
 #' skrrrahh(30)
@@ -43,58 +47,7 @@
 #'@export
 skrrrahh <- function(sound=27, expr = NULL) {
   expr
-  sounds <- c(twochainz = "twochainz.wav", 
-              twochainz1 = "twochainz1.wav", 
-              bigboi = "bigboi.wav", 
-              biggie = "biggie.wav", 
-              bigsean = "bigsean.wav", 
-              bigsean1 = "bigsean1.wav", 
-              bigsean2 = "bigsean2.wav", 
-              bigsean3 = "bigsean3.wav", 
-              bigsean4 = "bigsean4.wav", 
-              bigsean5 = "bigsean5.wav", 
-              bigshaq = "bigshaq.wav", 
-              bigshaq1 = "bigshaq1.wav",
-              birdman = "birdman.wav", 
-              birdman1 = "birdman1.wav", 
-              birdman2 = "birdman2.wav", 
-              busta = "busta.wav", 
-              chance = "chance.wav", 
-              desiigner = "desiigner.wav", 
-              diddy = "diddy.wav", 
-              drake = "drake.wav", 
-              drake1 = "drake1.wav", 
-              drummaboy = "drummaboy.wav", 
-              fetty = "fetty.wav", 
-              flava = "flava.wav", 
-              future = "future.wav", 
-              gucci = "gucci.wav", 
-              gucci1 = "gucci1.wav", 
-              gucci2 = "gucci2.wav", 
-              jayz = "jayz.wav", 
-              jayz1 = "jayz1.wav.wav", 
-              kendrick = "kendrick.wav", 
-              khaled = "khaled.wav", 
-              khaled1 = "khaled1.wav", 
-              khaled2 = "khaled2.wav", 
-              khaled3 = "khaled3.wav", 
-              liljon = "liljon.wav", 
-              liljon1 = "liljon1.wav", 
-              nicki = "nicki.wav", 
-              pitbull = "pitbull.wav", 
-              ross = "ross.wav", 
-              ross1 = "ross1.wav", 
-              schoolboy = "schoolboy.wav", 
-              snoop = "snoop.wav", 
-              soulja = "soulja.wav", 
-              takeoff = "takeoff.wav", 
-              tpain = "tpain.wav", 
-              traviscott = "traviscott.wav", 
-              treysongz = "treysongz.wav", 
-              trick = "trick.wav", 
-              waka = "waka.wav", 
-              weezy = "weezy.wav", 
-              yg = "yg.wav")
+  sounds <- skrrrahh_sounds()
   sound_path <- NULL
   if(is.na(sounds[sound]) || length(sounds[sound]) != 1) {
     if(is.character(sound)) {
@@ -125,6 +78,70 @@ skrrrahh <- function(sound=27, expr = NULL) {
   tryCatch(play_file(sound_path), error = function(ex) {
     warning("BRRR() could not play the sound due to the following error:\n", ex)
   })
+}
+
+skrrrahh_sounds <- function() {
+  sounds <- c(
+    twochainz = "twochainz.wav", 
+    twochainz1 = "twochainz1.wav", 
+    bigboi = "bigboi.wav", 
+    biggie = "biggie.wav", 
+    bigsean = "bigsean.wav", 
+    bigsean1 = "bigsean1.wav", 
+    bigsean2 = "bigsean2.wav", 
+    bigsean3 = "bigsean3.wav", 
+    bigsean4 = "bigsean4.wav", 
+    bigsean5 = "bigsean5.wav", 
+    bigshaq = "bigshaq.wav", 
+    bigshaq1 = "bigshaq1.wav",
+    birdman = "birdman.wav", 
+    birdman1 = "birdman1.wav", 
+    birdman2 = "birdman2.wav", 
+    busta = "busta.wav", 
+    chance = "chance.wav", 
+    desiigner = "desiigner.wav", 
+    diddy = "diddy.wav", 
+    drake = "drake.wav", 
+    drake1 = "drake1.wav", 
+    drummaboy = "drummaboy.wav", 
+    fetty = "fetty.wav", 
+    flava = "flava.wav", 
+    future = "future.wav", 
+    gucci = "gucci.wav", 
+    gucci1 = "gucci1.wav", 
+    gucci2 = "gucci2.wav", 
+    jayz = "jayz.wav", 
+    jayz1 = "jayz1.wav.wav", 
+    kendrick = "kendrick.wav", 
+    khaled = "khaled.wav", 
+    khaled1 = "khaled1.wav", 
+    khaled2 = "khaled2.wav", 
+    khaled3 = "khaled3.wav", 
+    liljon = "liljon.wav", 
+    liljon1 = "liljon1.wav", 
+    nicki = "nicki.wav", 
+    pitbull = "pitbull.wav", 
+    ross = "ross.wav", 
+    ross1 = "ross1.wav", 
+    schoolboy = "schoolboy.wav", 
+    snoop = "snoop.wav", 
+    soulja = "soulja.wav", 
+    takeoff = "takeoff.wav", 
+    tpain = "tpain.wav", 
+    traviscott = "traviscott.wav", 
+    treysongz = "treysongz.wav", 
+    trick = "trick.wav", 
+    waka = "waka.wav", 
+    weezy = "weezy.wav", 
+    yg = "yg.wav"
+  )
+}
+
+#' @export
+#' @rdname skrrrahh
+skrrrahh_list <- function() {
+  sounds <- skrrrahh_sounds()
+  paste0(seq_along(sounds), ": ", names(sounds))
 }
 
 is_wav_fname <- function(fname) {

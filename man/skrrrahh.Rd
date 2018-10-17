@@ -2,9 +2,12 @@
 % Please edit documentation in R/skrrrahh.R
 \name{skrrrahh}
 \alias{skrrrahh}
+\alias{skrrrahh_list}
 \title{Play a short rap ad lib.}
 \usage{
 skrrrahh(sound = 27, expr = NULL)
+
+skrrrahh_list()
 }
 \arguments{
 \item{sound}{character string or number specifying what sound to be played by 
@@ -21,7 +24,7 @@ supported.}
 \code{skrrrahh} is exactly like \code{beep} from the beepr package 
 (https://cran.r-project.org/web/packages/beepr/index.html). 
 The only difference is in the automatically loaded sounds available. 
-\code{skrrrahh} uses rap adlibs from [The Rap Board](http://therapboard.com/).
+\code{skrrrahh} uses rap adlibs from [The Rap Board](http://therapboard.com/). \code{skrrrahh_list} exposes a numbered listing of available sounds.
 }
 \details{
 If \code{skrrrahh} is not able to play the sound, a warning is issued rather 
@@ -31,6 +34,10 @@ that you wanted to get notified about.
 \examples{
 # Play Gucci saying "BRRR"
 skrrrahh()
+
+# See the names of available sounds, along with their associated number
+skrrrahh_list()
+
 \dontrun{
 # Get focused with Jay-Z.
 skrrrahh(30)
