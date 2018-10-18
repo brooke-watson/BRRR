@@ -94,7 +94,8 @@ skrrrahh <- function(sound=27, expr = NULL) {
               trick = "trick.wav", 
               waka = "waka.wav", 
               weezy = "weezy.wav", 
-              yg = "yg.wav")
+              yg = "yg.wav",
+              kanye = "kanye.wav")
   sound_path <- NULL
   if(is.na(sounds[sound]) || length(sounds[sound]) != 1) {
     if(is.character(sound)) {
