@@ -110,6 +110,8 @@ skrrrahh_sounds <- function() {
     gucci = "gucci.wav", 
     gucci1 = "gucci1.wav", 
     gucci2 = "gucci2.wav", 
+    hadley_animal6 = "hadley_animal6.wav",
+    hadley_bang = "hadley_bang.wav",
     jayz = "jayz.wav", 
     jayz1 = "jayz1.wav.wav", 
     kendrick = "kendrick.wav", 
