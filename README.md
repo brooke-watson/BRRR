@@ -21,7 +21,7 @@ Installation
 `BRRR` is available on Github and can be installed from within R by
 running:
 
-    if(!require(devtools)) {install.packages(devtools)}
+    if(!require(devtools)) {install.packages("devtools")}
     devtools::install_github("brooke-watson/BRRR")
 
 Requirements
