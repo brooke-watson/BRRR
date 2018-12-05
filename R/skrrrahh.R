@@ -133,7 +133,9 @@ skrrrahh_sounds <- function() {
     trick = "trick.wav", 
     waka = "waka.wav", 
     weezy = "weezy.wav", 
-    yg = "yg.wav"
+    yg = "yg.wav",
+    hadley_animal6 = "hadley_animal6.wav",
+    hadley_bang = "hadley_bang.wav"
   )
 }
 
